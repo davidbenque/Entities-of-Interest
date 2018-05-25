@@ -1,3 +1,12 @@
+
+Query with offset used to extract the names
+match (e:Entity) return e.name, e.internal_id skip 1000 limit 1000
+
+I have incremented the 'skip' number up to 11000
+
+
+older queries: 
+
 match (e:Entity) return e.name, e.status, e.incorporation_date, e.inactivation_date, e.countries, e.jurisdiction_description, e.service_provider limit 1000
 
 match (e:Entity {status:"Defaulted"}) return e.name, e.status, e.incorporation_date, e.inactivation_date, e.countries, e.jurisdiction_description, rand() as r
