@@ -2,7 +2,7 @@
 # @Author: davidbenque
 # @Date:   2018-03-29 11:14:25
 # @Last Modified by:   davidbenque
-# @Last Modified time: 2018-05-31 11:26:08
+# @Last Modified time: 2018-05-31 12:14:31
 
 from py2neo import Graph
 import itertools
@@ -158,6 +158,7 @@ def add_graph_node(graph_node, node_dict):
         node_name = list(graph_nodes.keys())[list(graph_nodes.values()).index(graph_node)]
 
         # remove special characters as they break the mermaid graph syntax
+        # this does not work, the codes get printed as is
         display_name = graph_node.translate(str.maketrans({
                                         "(": r"%28",
                                         ")": r"%29",

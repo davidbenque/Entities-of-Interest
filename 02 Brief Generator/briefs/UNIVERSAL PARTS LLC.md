@@ -1,0 +1,36 @@
+#UNIVERSAL PARTS LLC
+Status: Active
+Address: PROVEFABRICA C. C. PLAZA DEL RANCHO AV. EUGENIO ESPEJO 2410 Y RINCÓN DEL VALLE  BLQ 1; PISO 1; OFC 103 MIRAVALLE (VÍA TANDA) CUMBAYA-ECUADOR
+
+##Incoming
+SHAREHOLDER
+DEXFORD CORP.
+Anguilla
+
+
+INTERMEDIARY
+PROVEFABRICA
+Ecuador
+
+
+
+##Graph
+```mermaid
+graph LR
+classDef outline fill:#fff,stroke:#000,stroke-width:1px;
+node1[UNIVERSAL PARTS LLC<br>]
+node2[DEXFORD CORP<br>Anguilla]
+node2-->|SHAREHOLDER_OF|node1
+node3[PROVEFABRICA<br>Ecuador]
+node3-->|INTERMEDIARY_OF|node1
+class node1 outline
+node2-->|SIMILAR_NAME_AND_ADDRESS_AS|node2
+node4[<br>Anguilla]
+node2-->|REGISTERED_ADDRESS|node4
+node5[MOSSACK FONSECA & CO %28QUITO%29 LTD<br>]
+node2-->|SHAREHOLDER_OF|node5
+node6[OMATE CONSULTANTS LIMITED<br>]
+node2-->|SHAREHOLDER_OF|node6
+node2-->|SHAREHOLDER_OF|node1
+node3-->|INTERMEDIARY_OF|node1
+```

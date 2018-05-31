@@ -1,0 +1,26 @@
+#LORD STEAMSHIP CO. S.A.
+Status: Defaulted
+Address: WILKINSON & GRIST 6TH FLOOR; PRINCE'S BUILDING 10 CHATER ROAD; CENTRAL  HONG KONG
+
+##Incoming
+INTERMEDIARY
+WILKINSON & GRIST (KOWLOON)
+WILKINSON & GRIST 6TH FLOOR; PRINCE'S BUILDING 10 CHATER ROAD; CENTRAL  HONG KONG
+Hong Kong
+
+
+
+##Graph
+```mermaid
+graph LR
+classDef outline fill:#fff,stroke:#000,stroke-width:1px;
+node1[LORD STEAMSHIP CO SA<br>]
+node2[WILKINSON & GRIST %28KOWLOON%29<br>Hong Kong]
+node2-->|INTERMEDIARY_OF|node1
+class node1 outline
+node2-->|INTERMEDIARY_OF|node1
+node3[SOUTH BAY ASSOCIATES LIMITED INC<br>]
+node2-->|INTERMEDIARY_OF|node3
+node4[SURVIVOR CORPORATION<br>]
+node2-->|INTERMEDIARY_OF|node4
+```
