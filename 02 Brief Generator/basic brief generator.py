@@ -2,10 +2,12 @@
 # @Author: davidbenque
 # @Date:   2018-03-29 11:14:25
 # @Last Modified by:   davidbenque
-# @Last Modified time: 2018-05-30 22:40:21
+# @Last Modified time: 2018-05-31 11:26:08
 
 from py2neo import Graph
 import itertools
+import os
+import pandas as pd
 
 # login local ICIJ Neo4j database at http://localhost:7474
 
@@ -15,21 +17,10 @@ NEO4J_PASS = "panamo" # replace with your password
 url = 'http://localhost:7474'
 graph = Graph(url + '/db/data', username = NEO4J_USER, password = NEO4J_PASS)
 
+name_list = pd.read_csv('../01 Name Hunting/_selected_names.csv')
+shuffled_names = name_list.sample(frac=1).reset_index(drop=True)
 
-def parse_node(node):
-    ''' returns a dict of properties for a graph node'''
-    label = list(node.labels())[0] # assumes 1 label per node
-    if label == "Officer":
-        return {"name": node["name"], "countries": node["countries"]}
-    elif label == "Intermediary":
-        return {"name": node["name"], "address": node["address"], "countries": node["countries"]}
-    elif label == "Address":
-        return {"address": node["address"], "countries": node["countries"]}
-    elif label == "Entity":
-        return {"name": node["name"], "address": node["address"]}
-
-
-company_name = "In the Name of the Father Ltd"
+company_name = shuffled_names.loc[0]["name"]
 
 # Get the node from the graph
 query = '''
@@ -45,7 +36,10 @@ start_id = start["a"]["node_id"]
 entity_node = graph.find_one("Entity", "node_id", start_id)
 
 
-file = open('file.md', 'w')
+
+file = open('briefs/' + company_name + '.md', 'w')
+
+
 
 # Company Details
 file.write("#" + start["a"]["name"] + "\n")
@@ -55,10 +49,25 @@ basic_info = ["company_type", "status", "address"]
 for deet in basic_info:
     if entity_node[deet]:
         file.write(deet.title() + ": " + entity_node[deet] + "\n") 
-file.write(""+ "\n")
+file.write("\n")
 
 
-# Generator check 
+## Functions
+
+def parse_node(node):
+    ''' returns a dict of properties for a graph node'''
+    label = list(node.labels())[0] # assumes 1 label per node
+    if label == "Officer":
+        return {"name": node["name"], "countries": node["countries"]}
+    elif label == "Intermediary":
+        return {"name": node["name"], "address": node["address"], "countries": node["countries"]}
+    elif label == "Address":
+        return {"address": node["address"], "countries": node["countries"]}
+    elif label == "Entity":
+        return {"name": node["name"], "address": node["address"]}
+
+
+# Generator check - see if there are any incoming/outgoing links to display
 
 def peek(iterable):
     try:
@@ -75,8 +84,8 @@ if in_check is None:
     file.write("" + "\n")
 else:
     file.write("##Incoming" + "\n")
-    first, nodelist = in_check
-    for i in nodelist:
+    first, nodelist_in = in_check
+    for i in nodelist_in:
         link_type = i.type()
         if link_type.endswith("_OF"):
             link_type = link_type[:-3]
@@ -88,6 +97,7 @@ else:
         file.write("" + "\n" + "\n")
 
 # Outgoing links 
+
 outgoing_nodes = graph.match(start_node = entity_node)
 out_check = peek(outgoing_nodes)
 
@@ -95,8 +105,8 @@ if out_check is None:
     file.write("" + "\n")
 else:
     file.write("##Outgoing" + "\n")
-    first, nodelist = out_check
-    for i in outgoing_nodes:
+    first, nodelist_out = out_check
+    for i in nodelist_out:
         link_type = i.type()
         if link_type.endswith("_OF"):
             link_type = link_type[:-3]
@@ -109,7 +119,9 @@ else:
         file.write("" + "\n" + "\n") 
 
 
-# Network
+# Network Graph
+
+
 file.write("##Graph" + "\n")
 
 file.write("```mermaid" + "\n")
@@ -123,10 +135,11 @@ node_queue = []
 
 
 def graph_node_label(node):
+
     try:
         a = node["name"]
     except:
-        a = node["countries"]
+        a = "" #node["address"]
 
     try:
         b = node["countries"]
@@ -139,12 +152,26 @@ def graph_node_label(node):
 def add_graph_node(graph_node, node_dict):
     global node_index, graph_nodes
     if graph_node not in graph_nodes.values():
-        graph_nodes["node" + str(node_index)] = graph_node.replace("(", "\(")
+        graph_nodes["node" + str(node_index)] = graph_node
         node_index += 1
 
         node_name = list(graph_nodes.keys())[list(graph_nodes.values()).index(graph_node)]
 
-        file.write(node_name + "[" + graph_node + "]" + "\n")
+        # remove special characters as they break the mermaid graph syntax
+        display_name = graph_node.translate(str.maketrans({
+                                        "(": r"%28",
+                                        ")": r"%29",
+                                        "]": r"%5D",
+                                        "{": r"%7B",
+                                        "}": r"%7D",
+                                        ".": r"",
+                                        ";": r" ",
+                                        "·": r"",
+                                        "@": r"",
+                                        "'": r"%27",
+                                        "’": r"%27",
+                                          "[":  r"%5B"}))
+        file.write(node_name + "[" + display_name + "]" + "\n")
 
     node_name = list(graph_nodes.keys())[list(graph_nodes.values()).index(graph_node)]
     return node_name
@@ -173,6 +200,7 @@ def graphnode(input_node):
         target_graphnode = graph_node_label(target)
 
         target_name = add_graph_node(target_graphnode, graph_nodes)
+
         file.write(node_name + "-->|" + i.type() + "|" +  target_name + "\n")
 
 
