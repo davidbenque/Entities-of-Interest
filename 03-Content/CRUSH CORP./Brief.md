@@ -1,0 +1,12 @@
+# CRUSH CORP.
+Status: Defaulted
+Address: PAZ & HOROWITZ P.O. BOX 17-22-20399 QUITO, ECUADOR *S.I.*
+
+## Stakeholders
+INTERMEDIARY
+PAZ & HOROWITZ
+PAZ & HOROWITZ P.O. BOX 17-22-20399 QUITO, ECUADOR *S.I.*
+Ecuador
+
+
+
