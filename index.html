@@ -1,11 +1,15 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="assets/style.css">
 
 
   </head>
 
-  <body>
+  <body class="landing">
+<h1>Entities of Interest</h1>
+    <img src="assets/ball-machine.jpg" alt="">
   <div id="container">
   </div>
 
@@ -13,33 +17,18 @@
 
   <script type="text/javascript">
 
-  var selfArchive = new DatArchive('' + window.location);
   var container = document.getElementById("container");
-  setup();
 
-  async function setup () {
-    var info = await selfArchive.getInfo();
-    container.innerHTML += '<h1>' + info.title + '</h1>';
-    //container.innerHTML += info.description;
-
-    var files = await selfArchive.readdir('/03-Content/', {recursive: false});
-    files.sort();
-    for (var i = 0; i < files.length; i++){
-      var name = files[i];
-      if (name.charAt(0) !== '.'){ // skip hidden files like .DS_Store
-        var dir_path = '/03-Content/' + name + '/';
-        var dir = await selfArchive.readdir(dir_path, {recursive: false});
-        
-        var type = (dir.length > 2) ? 'done' : 'todo';
-        if (type == 'todo'){
-          container.innerHTML += '<p class=' + type + '><a href="03-Content/' + name + '/Brief.md">' + name + '</p>';
-        } else {
-          container.innerHTML += '<p class=' + type + '><a href="03-Content/' + name + '/Readme.md">' + name + '</p>';
-        }
-        
-      }
-    }
+  try {
+    var selfArchive = new DatArchive('' + window.location);
+  }
+  catch(error){
+    container.innerHTML += 'Please visit <a href="dat://entities-of-interest-davidbenque.hashbase.io/">the Dat site</a><br>(<a href="https://beakerbrowser.com/">Beaker Browser</a> needed)'
   };
+
+  if (selfArchive != undefined){
+    container.innerHTML += '<a href="list.html">Enter</a>'
+  }
 
   </script>
 
