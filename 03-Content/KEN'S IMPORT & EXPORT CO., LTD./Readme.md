@@ -4,11 +4,9 @@
 [comment]: &lt;> "Add/Remove information below as you want"
 [comment]: &lt;> "Markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet"
 [Brief](Brief.md)  
-by:  
-date:  
+by:Clara Wassak  
 
 ---
 [comment]: &lt;> "Add your content here"
 
 ![KEN'S IMPORT & EXPORT CO., LTD](ken.jpg)
-
