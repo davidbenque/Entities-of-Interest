@@ -31,6 +31,9 @@ for n in node_results:
         if node_desc not in nodes:
             nodes.append(node_desc)
 
+focus_node = nodes[0]
+focus_node[0]
+print("Focus node: "+ str(focus_node))
 print("Nodes: ", len(nodes))
 
 
@@ -44,14 +47,26 @@ link_query = '''
 
 link_results = graph.run(link_query, name = company_name)
 
+def weight(start, end):
+    ''' a = array of nodes to check for either start or end at focus node'''
+    if focus_node[0] in [start, end]:
+        return 1
+    else:
+        return 0.1
+
 for l in link_results:
-    link_1 = (int(l["a.node_id"]), int(l["b.node_id"]))
-    link_2 = (int(l["b.node_id"]), int(l["c.node_id"]))
+    a = int(l["a.node_id"])
+    b = int(l["b.node_id"])
+    c = int(l["c.node_id"])
+
+    link_1 = (a, b, {'weight': weight(a,b)})
+    link_2 = (b, c, {'weight': weight(b,c)})
     for link in [link_1, link_2]:
         if link not in links:
             links.append(link)
 
 print("Links: ", len(links))
+
 
 # %%
 import networkx as nx
@@ -62,32 +77,26 @@ for n in nodes:
     G.add_node(n[0], name = n[1]["name"])
 
 for edge in links:
-    G.add_edge(edge[0], edge[1])
+    G.add_edge(edge[0], edge[1], weight = edge[2]['weight'])
 
 print(G.number_of_edges())
 print(G.number_of_nodes())
 
+G.edges(data=True)
+
 # %%
-import matplotlib
+import matplotlib.pyplot as plt
 
-draw(G)
-
-
+pos = nx.spring_layout(G, iterations=8, weight='weight')
+nx.draw(G,pos=pos, node_size=20, edge_color="grey", linewidths=1)
 
 # %%
 from bokeh.io import show, output_file
 from bokeh.plotting import figure
 from bokeh.models.graphs import from_networkx, NodesAndLinkedEdges, EdgesAndLinkedNodes
-from bokeh.models import HoverTool, Oval, ColumnDataSource, LabelSet
+from bokeh.models import HoverTool, Ellipse, ColumnDataSource, LabelSet
 
 from collections import OrderedDict
-
-plot = figure(title=company_name,
-            plot_width=800,
-            plot_height=800,
-            x_range=(-100,100), y_range=(-100,100),
-            toolbar_location="right",
-            tools="pan,wheel_zoom,box_zoom,reset")
 
 node_labels = nx.get_node_attributes(G, 'name')
 
@@ -97,27 +106,38 @@ for node in node_labels:
     #name = label(1)
     node_names.append(name)
 
-source = ColumnDataSource({'x': x, 'y': y, 'name': [node_labels[i] for i in node_labels.keys()]})
-
-hover = HoverTool(tooltips=[("Name:", "@name")])
-plot.add_tools(hover)
 
 
-bokeh_graph = from_networkx(G, nx.spring_layout, scale=80)
-bokeh_graph.node_renderer.glyph = Oval(height=0.5, width=0.5)
-bokeh_graph.node_renderer.data_source.data['name'] = node_names
+plot = figure(title=company_name,
+            plot_width=600,
+            plot_height=600,
+            x_range=(-100,100), y_range=(-100,100),
+            toolbar_location="right",
+            tools="pan,wheel_zoom,box_zoom,reset")
 
-bokeh_graph.inspection_policy = NodesAndLinkedEdges()
+# hover = HoverTool(tooltips=[("Name:", "@name")])
+# plot.add_tools(hover)
+
+bokeh_graph = from_networkx(G, nx.spring_layout, scale=80, iterations=15, weight='weight')
+
+
+bokeh_graph.node_renderer.glyph = Ellipse(height=0.5, width=0.5)
+
+# bokeh_graph.inspection_policy = NodesAndLinkedEdges()
+# bokeh_graph.node_renderer.data_source.data['name'] = node_names
+#
+
+
 plot.renderers.append(bokeh_graph)
 
-# x, y = zip(*bokeh_graph.layout_provider.graph_layout.values())
-# node_labels = nx.get_node_attributes(G, 'name')
-#
-# source = ColumnDataSource({'x': x, 'y': y, 'name': [node_labels[i] for i in node_labels.keys()]})
-# labels = LabelSet(x='x', y='y', text='name', source=source,
-#                   background_fill_color='white')
-#
-# plot.renderers.append(labels)
+x, y = zip(*bokeh_graph.layout_provider.graph_layout.values())
+node_labels = nx.get_node_attributes(G, 'name')
 
-output_file("networkx_graph.html")
+source = ColumnDataSource({'x': x, 'y': y, 'name': [node_labels[i] for i in node_labels.keys()]})
+labels = LabelSet(x='x', y='y', text='name', source=source,
+                  background_fill_color='white', text_font_size="9pt")
+
+plot.renderers.append(labels)
+
+output_file(company_name + "_graph.html")
 show(plot)
