@@ -86,7 +86,7 @@ print(G.number_of_nodes())
 from bokeh.io import show, output_file
 from bokeh.plotting import figure
 from bokeh.models.graphs import from_networkx, NodesAndLinkedEdges, EdgesAndLinkedNodes
-from bokeh.models import HoverTool, Circle, ColumnDataSource, LabelSet
+from bokeh.models import HoverTool, Circle, MultiLine, ColumnDataSource, LabelSet
 
 from collections import OrderedDict
 
@@ -98,30 +98,44 @@ for node in node_labels:
     #name = label(1)
     node_names.append(name)
 
-
-
 plot = figure(title=company_name,
             plot_width=600,
             plot_height=600,
             x_range=(-100,100), y_range=(-100,100),
             toolbar_location="right",
-            tools="pan,wheel_zoom, hover, box_zoom,reset")
+            tools="pan,wheel_zoom, hover, save, box_zoom,reset")
 
-
+plot.toolbar.active_scroll = "auto"
 
 bokeh_graph = from_networkx(G, nx.spring_layout, scale=80, iterations=15, weight='weight')
 
-
-bokeh_graph.node_renderer.glyph = Circle(size=10)
-
-
+# add attributes to nodes
 bokeh_graph.node_renderer.data_source.data['name'] = node_names
 
+# styling nodes and edges
+bokeh_graph.node_renderer.glyph = Circle(size=10, fill_color="#6d62ff", line_alpha=0)
+bokeh_graph.edge_renderer.glyph = MultiLine(line_color="#444444", line_alpha=0.8, line_width=0.5)
+
 # Tooltip with name on hover
-hover =plot.select(dict(type=HoverTool))
+hover = plot.select(dict(type=HoverTool))
 hover.tooltips = OrderedDict([("Name", "@name")])
-bokeh_graph.node_renderer.hover_glyph = Circle(size=10, fill_color='red')
+bokeh_graph.node_renderer.hover_glyph = Circle(size=10, fill_color='red', line_alpha=0)
 bokeh_graph.inspection_policy = NodesAndLinkedEdges()
+
+########## to do
+# Label for focus company
+focus_node
+bokeh_graph.node_renderer.data_source.data
+
+plot.select(name=company_name)
+
+# citation = Label(x=70, y=70,
+#                  text='Collected by Luke C. 2016-04-01',
+#                  border_line_color='black', border_line_alpha=1.0,
+#                  background_fill_color='white', background_fill_alpha=1.0)
+#
+
+#########
 
 plot.renderers.append(bokeh_graph)
 
