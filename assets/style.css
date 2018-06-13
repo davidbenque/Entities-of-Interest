@@ -75,3 +75,14 @@ div.markdown > iframe{
   width:100%;
   height: 800px;
 }
+
+
+
+svg {
+  max-width: 100%;
+}
+
+text {
+  fill-opacity: 1;
+  fill: black;
+}

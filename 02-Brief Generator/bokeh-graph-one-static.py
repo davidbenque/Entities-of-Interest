@@ -133,10 +133,17 @@ bokeh_graph.edge_renderer.glyph = MultiLine(line_color="#444444", line_alpha=0.8
 # static Labels
 x, y = zip(*bokeh_graph.layout_provider.graph_layout.values())
 node_labels = nx.get_node_attributes(G, 'name')
-
 source = ColumnDataSource({'x': x, 'y': y, 'name': [node_labels[i] for i in node_labels.keys()]})
-labels = LabelSet(x='x', y='y', text='name', source=source, level="glyph",
-                  background_fill_color='#FFFFFF', text_font_size="9pt")
+
+labels = LabelSet(x='x', y='y',
+                    text='name',
+                    source=source,
+                    level="glyph",
+                    background_fill_color='blue',
+                    background_fill_alpha=0,
+                    text_alpha=1,
+                    text_color="black",
+                    text_font_size="4pt")
 
 plot.renderers.append(labels)
 
@@ -157,6 +164,8 @@ plot.select(name=company_name)
 #########
 plot.renderers.append(bokeh_graph)
 
+# output_file(company_name + "_graph.html")
+# show(plot)
 
 plot.output_backend = "svg"
-export_svgs(plot, filename="plot.svg")
+export_svgs(plot, filename="03-Content/" + company_name + "/plot.svg")
