@@ -32,7 +32,6 @@ for n in node_results:
             nodes.append(node_desc)
 
 focus_node = nodes[0]
-focus_node[0]
 print("Focus node: "+ str(focus_node))
 print("Nodes: ", len(nodes))
 
@@ -82,19 +81,12 @@ for edge in links:
 print(G.number_of_edges())
 print(G.number_of_nodes())
 
-G.edges(data=True)
-
-# %%
-import matplotlib.pyplot as plt
-
-pos = nx.spring_layout(G, iterations=8, weight='weight')
-nx.draw(G,pos=pos, node_size=20, edge_color="grey", linewidths=1)
 
 # %%
 from bokeh.io import show, output_file
 from bokeh.plotting import figure
 from bokeh.models.graphs import from_networkx, NodesAndLinkedEdges, EdgesAndLinkedNodes
-from bokeh.models import HoverTool, Ellipse, ColumnDataSource, LabelSet
+from bokeh.models import HoverTool, Circle, ColumnDataSource, LabelSet
 
 from collections import OrderedDict
 
@@ -113,31 +105,25 @@ plot = figure(title=company_name,
             plot_height=600,
             x_range=(-100,100), y_range=(-100,100),
             toolbar_location="right",
-            tools="pan,wheel_zoom,box_zoom,reset")
+            tools="pan,wheel_zoom, hover, box_zoom,reset")
 
-# hover = HoverTool(tooltips=[("Name:", "@name")])
-# plot.add_tools(hover)
+
 
 bokeh_graph = from_networkx(G, nx.spring_layout, scale=80, iterations=15, weight='weight')
 
 
-bokeh_graph.node_renderer.glyph = Ellipse(height=0.5, width=0.5)
+bokeh_graph.node_renderer.glyph = Circle(size=10)
 
-# bokeh_graph.inspection_policy = NodesAndLinkedEdges()
-# bokeh_graph.node_renderer.data_source.data['name'] = node_names
-#
 
+bokeh_graph.node_renderer.data_source.data['name'] = node_names
+
+# Tooltip with name on hover
+hover =plot.select(dict(type=HoverTool))
+hover.tooltips = OrderedDict([("Name", "@name")])
+bokeh_graph.node_renderer.hover_glyph = Circle(size=10, fill_color='red')
+bokeh_graph.inspection_policy = NodesAndLinkedEdges()
 
 plot.renderers.append(bokeh_graph)
-
-x, y = zip(*bokeh_graph.layout_provider.graph_layout.values())
-node_labels = nx.get_node_attributes(G, 'name')
-
-source = ColumnDataSource({'x': x, 'y': y, 'name': [node_labels[i] for i in node_labels.keys()]})
-labels = LabelSet(x='x', y='y', text='name', source=source,
-                  background_fill_color='white', text_font_size="9pt")
-
-plot.renderers.append(labels)
 
 output_file(company_name + "_graph.html")
 show(plot)
