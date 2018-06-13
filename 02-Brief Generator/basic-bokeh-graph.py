@@ -78,8 +78,9 @@ for n in nodes:
 for edge in links:
     G.add_edge(edge[0], edge[1], weight = edge[2]['weight'])
 
-print(G.number_of_edges())
 print(G.number_of_nodes())
+print(G.number_of_edges())
+
 
 
 # %%
@@ -99,21 +100,28 @@ for node in node_labels:
     node_names.append(name)
 
 plot = figure(title=company_name,
-            plot_width=600,
-            plot_height=600,
-            x_range=(-100,100), y_range=(-100,100),
+            plot_width=700,
+            plot_height=750,
+            x_range=(-90,90), y_range=(-90,90),
             toolbar_location="right",
             tools="pan,wheel_zoom, hover, save, box_zoom,reset")
 
+# try to activate mouse wheel zoom by default
 plot.toolbar.active_scroll = "auto"
 
-bokeh_graph = from_networkx(G, nx.spring_layout, scale=80, iterations=15, weight='weight')
+# plot styling
+plot.axis.visible = False
+plot.grid.minor_grid_line_color = 'black'
+plot.grid.minor_grid_line_alpha = 0.05
+plot.toolbar.logo = None
+
+bokeh_graph = from_networkx(G, nx.spring_layout, scale=80, iterations=5, weight='weight')
 
 # add attributes to nodes
 bokeh_graph.node_renderer.data_source.data['name'] = node_names
 
 # styling nodes and edges
-bokeh_graph.node_renderer.glyph = Circle(size=10, fill_color="#6d62ff", line_alpha=0)
+bokeh_graph.node_renderer.glyph = Circle(size=10, fill_color="black", line_alpha=0)
 bokeh_graph.edge_renderer.glyph = MultiLine(line_color="#444444", line_alpha=0.8, line_width=0.5)
 
 # Tooltip with name on hover
