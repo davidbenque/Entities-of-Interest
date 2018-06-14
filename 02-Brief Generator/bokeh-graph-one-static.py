@@ -84,7 +84,7 @@ print(G.number_of_edges())
 
 
 # %%
-from bokeh.io import show, output_file, export_svgs
+from bokeh.io import export_svgs, export_png
 from bokeh.plotting import figure
 from bokeh.models.graphs import from_networkx, NodesAndLinkedEdges, EdgesAndLinkedNodes
 from bokeh.models import HoverTool, Circle, MultiLine, ColumnDataSource, LabelSet
@@ -100,8 +100,8 @@ for node in node_labels:
     node_names.append(name)
 
 plot = figure(title=company_name,
-            plot_width=1000,
-            plot_height=1000,
+            plot_width=2000,
+            plot_height=2000,
             x_range=(-150,150), y_range=(-150,150),
             toolbar_location="right",
             tools="pan,wheel_zoom, hover, save, box_zoom,reset")
@@ -139,22 +139,21 @@ labels = LabelSet(x='x', y='y',
                     text='name',
                     source=source,
                     level="glyph",
-                    background_fill_color='blue',
-                    background_fill_alpha=0,
+                    background_fill_color='white',
+                    background_fill_alpha=0.3,
                     text_alpha=1,
                     text_color="black",
-                    text_font_size="4pt")
+                    text_font_size="8pt")
 
 plot.renderers.append(labels)
 
-
 ########## to do
 # Label for focus company
-focus_node
-bokeh_graph.node_renderer.data_source.data
+# focus_node
+# bokeh_graph.node_renderer.data_source.data
+# plot.select(name=company_name)
 
-plot.select(name=company_name)
-
+# example of single label 
 # citation = Label(x=70, y=70,
 #                  text='Collected by Luke C. 2016-04-01',
 #                  border_line_color='black', border_line_alpha=1.0,
@@ -167,5 +166,7 @@ plot.renderers.append(bokeh_graph)
 # output_file(company_name + "_graph.html")
 # show(plot)
 
-plot.output_backend = "svg"
-export_svgs(plot, filename="03-Content/" + company_name + "/plot.svg")
+# plot.output_backend = "svg"
+# export_svgs(plot, filename="../03-Content/" + company_name + "/plot.svg")
+
+export_png(plot, filename="../03-Content/" + company_name + "/plot.png")

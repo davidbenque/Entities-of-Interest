@@ -9,10 +9,9 @@ INTERMEDIARY
 Atlas Maritime Services Ltd.
 United Kingdom
 
-
 REGISTERED_ADDRESS
 Atlas Maritime Services Ltd. Ville Farm P.O. Box 9 Sark   (via Guernsey GY9 0SE) Channel Islands United Kingdom
 United Kingdom
 
-
- <iframe src="graph.html" frameborder="0" border="0" cellspacing="0"></iframe>
+<!-- <object data="plot.svg" type="image/svg+xml"></object> -->
+<img src="plot.png" alt="">
