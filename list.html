@@ -19,7 +19,7 @@
 
   async function setup () {
     var info = await selfArchive.getInfo();
-    container.innerHTML += '<h1>' + info.title + '</h1>';
+    container.innerHTML += '<h4>Entities of Interest</h4>';
     //container.innerHTML += info.description;
 
     var files = await selfArchive.readdir('/03-Content/', {recursive: false});
@@ -29,14 +29,14 @@
       if (name.charAt(0) !== '.'){ // skip hidden files like .DS_Store
         var dir_path = '/03-Content/' + name + '/';
         var dir = await selfArchive.readdir(dir_path, {recursive: false});
-        
+
         var type = (dir.length > 2) ? 'done' : 'todo';
         if (type == 'todo'){
           container.innerHTML += '<p class=' + type + '><a href="03-Content/' + name + '/Brief.md">' + name + '</p>';
         } else {
           container.innerHTML += '<p class=' + type + '><a href="03-Content/' + name + '/Readme.md">' + name + '</p>';
         }
-        
+
       }
     }
   };
