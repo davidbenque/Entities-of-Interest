@@ -45,6 +45,23 @@ h1{
   font-weight: normal;
 }
 
+h4{
+  font-weight: normal;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+.markdown>h4>a{
+  color:black;
+}
+
+.markdown>h4>a:hover{
+  color:black;
+  background-color: white;
+  text-decoration: underline;
+}
+
 p {
 
 }
@@ -88,4 +105,41 @@ svg {
 text {
   fill-opacity: 1;
   fill: black;
+}
+
+.legend{
+  font-size: 0.8em;
+  line-height: 150%;
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.legend>hr{
+  margin: 5px 0px;
+  padding: 0px;
+}
+
+.legend>span{
+  display: block;
+}
+
+.focus{
+  color:#FF0000;
+}
+
+.officer{
+  color: #ff69f9;
+}
+
+.entity{
+  color: #0e438a;
+}
+
+.address{
+  color: #8bf156;
+}
+
+.intermediary{
+  color: #ff8200;
 }

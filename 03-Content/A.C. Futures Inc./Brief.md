@@ -1,4 +1,5 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
+#### [Entities of Interest](/list.html)
 
 # A.C. Futures Inc.
 Status: Dead
@@ -13,5 +14,15 @@ REGISTERED_ADDRESS
 Atlas Maritime Services Ltd. Ville Farm P.O. Box 9 Sark   (via Guernsey GY9 0SE) Channel Islands United Kingdom
 United Kingdom
 
-<!-- <object data="plot.svg" type="image/svg+xml"></object> -->
-<img src="plot.png" alt="">
+
+<div class="legend">
+Graph Legend
+<hr>
+<span class="focus">• A.C. Futures Inc.</span>
+<span class="entity">• Entities</span>
+<span class="intermediary">• Intermediaries</span>
+<span class="officer">• Officers</span>
+<span class="address">• Addresses</span>
+</div>
+
+<img src="graph.png" alt="">
