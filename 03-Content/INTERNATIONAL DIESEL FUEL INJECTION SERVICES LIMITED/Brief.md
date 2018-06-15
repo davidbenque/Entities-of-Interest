@@ -1,3 +1,6 @@
+<link rel="stylesheet" type="text/css" href="../../assets/style.css">
+#### [Entities of Interest](/list.html)
+
 # INTERNATIONAL DIESEL FUEL INJECTION SERVICES LIMITED
 Status: Active
 Address: LAWRENCE CHAN & CO. CERTIFIED PUBLIC ACCOUNTANTS SUITE 601A; FOURSEAS BUILDING 208-212 NATHAN ROAD TSIMSHATSUI; KOWLOON HONG KONG
@@ -29,4 +32,22 @@ LAWRENCE CHAN & CO. CERTIFIED PUBLIC ACCOUNTANTS SUITE 601A; FOURSEAS BUILDING 2
 Hong Kong
 
 
+
+
+---
+
+
+
+<div class="legend">
+Graph Key
+<hr>
+<span class="focus">• INTERNATIONAL DIESEL FUEL INJECTION SERVICES LIMITED</span>
+<span class="entity">• Entities</span>
+<span class="intermediary">• Intermediaries</span>
+<span class="officer">• Officers</span>
+<span class="address">• Addresses</span>
+</div>
+
+
+<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/INTERNATIONAL_DIESEL_FUEL_INJECTION_SERVICES_LIMITED.png" alt="">
 

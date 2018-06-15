@@ -1,3 +1,6 @@
+<link rel="stylesheet" type="text/css" href="../../assets/style.css">
+#### [Entities of Interest](/list.html)
+
 # GOLDEN GLARE INTERNATIONAL LLC
 Status: Dissolved
 Address: GOLDEN GLARE INTERNATIONAL LLC  RUA ALDA LUCHINI VIAL; 381 CONDOMINIO ANGELO VIAL; CAMPOLIM; SOROCABA; SP; BRAZIL
@@ -12,4 +15,22 @@ GOLDEN GLARE INTERNATIONAL LLC
 Brazil
 
 
+
+
+---
+
+
+
+<div class="legend">
+Graph Key
+<hr>
+<span class="focus">• GOLDEN GLARE INTERNATIONAL LLC</span>
+<span class="entity">• Entities</span>
+<span class="intermediary">• Intermediaries</span>
+<span class="officer">• Officers</span>
+<span class="address">• Addresses</span>
+</div>
+
+
+<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/GOLDEN_GLARE_INTERNATIONAL_LLC.png" alt="">
 

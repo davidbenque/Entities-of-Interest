@@ -1,3 +1,6 @@
+<link rel="stylesheet" type="text/css" href="../../assets/style.css">
+#### [Entities of Interest](/list.html)
+
 # THE GOLDEN HOUSE OF EXCELLENCE LTD.
 Status: Defaulted
 Address: ANCHOR TRUST COMPANY LIMITED P.O. BOX 496 CHARLES HOUSE; CHARLES STREET ST. HELIER; JERSEY JE4 5TD CHANNEL ISLANDS
@@ -13,4 +16,22 @@ ANCHOR TRUST COMPANY LIMITED P.O. BOX 496 CHARLES HOUSE; CHARLES STREET ST. HELI
 Jersey;United Kingdom
 
 
+
+
+---
+
+
+
+<div class="legend">
+Graph Key
+<hr>
+<span class="focus">• THE GOLDEN HOUSE OF EXCELLENCE LTD.</span>
+<span class="entity">• Entities</span>
+<span class="intermediary">• Intermediaries</span>
+<span class="officer">• Officers</span>
+<span class="address">• Addresses</span>
+</div>
+
+
+<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/THE_GOLDEN_HOUSE_OF_EXCELLENCE_LTD..png" alt="">
 

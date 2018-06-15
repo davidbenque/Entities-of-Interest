@@ -1,3 +1,6 @@
+<link rel="stylesheet" type="text/css" href="../../assets/style.css">
+#### [Entities of Interest](/list.html)
+
 # PERA INC.
 Status: Inactivated
 Address: EXPERTA CORPORATE & TRUST SERVICES 42, RUE DE LA VALLÉE L-2661 LUXEMBOURG CITY LUXEMBOURG
@@ -9,4 +12,22 @@ EXPERTA CORPORATE & TRUST SERVICES 42, RUE DE LA VALLÉE L-2661 LUXEMBOURG CITY 
 Luxembourg
 
 
+
+
+---
+
+
+
+<div class="legend">
+Graph Key
+<hr>
+<span class="focus">• PERA INC.</span>
+<span class="entity">• Entities</span>
+<span class="intermediary">• Intermediaries</span>
+<span class="officer">• Officers</span>
+<span class="address">• Addresses</span>
+</div>
+
+
+<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/PERA_INC..png" alt="">
 

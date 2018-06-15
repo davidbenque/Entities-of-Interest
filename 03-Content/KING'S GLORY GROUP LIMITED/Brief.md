@@ -1,3 +1,6 @@
+<link rel="stylesheet" type="text/css" href="../../assets/style.css">
+#### [Entities of Interest](/list.html)
+
 # KING'S GLORY GROUP LIMITED
 Status: Defaulted
 Address: CORPORATE MANAGEMENT SERVICES LIMITED 1301 BANK OF AMERICA TOWER 12 HARCOURT ROAD CENTRAL, HONG KONG. **S.I.**
@@ -24,4 +27,22 @@ CORPORATE MANAGEMENT SERVICES LIMITED 1301 BANK OF AMERICA TOWER 12 HARCOURT ROA
 Hong Kong
 
 
+
+
+---
+
+
+
+<div class="legend">
+Graph Key
+<hr>
+<span class="focus">• KING'S GLORY GROUP LIMITED</span>
+<span class="entity">• Entities</span>
+<span class="intermediary">• Intermediaries</span>
+<span class="officer">• Officers</span>
+<span class="address">• Addresses</span>
+</div>
+
+
+<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/KING'S_GLORY_GROUP_LIMITED.png" alt="">
 
