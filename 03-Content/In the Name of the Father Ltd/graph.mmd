@@ -1,0 +1,98 @@
+graph TD
+
+
+
+  subgraph _
+    in((in))
+    yacht["🏖"]
+    boat["🚤"]
+    car["🏎"]
+    foot["⚽️"]
+    car-->out((out))
+    foot-->out
+  end
+
+  itnof-->in
+  in-->boat
+  in-->yacht
+  in-->car
+  in-->foot
+
+  out-->x("⛪️")
+  out-->y("🏨")
+  out-->z("🏰")
+  out-->xx("🏬")
+
+  subgraph In the Name of the Father Ltd
+    itnof{"📥"}
+  end
+
+  subgraph Corp. A
+    A["🏢"]---ceo1(("👩🏻"))
+    acc1(("📊"))
+  end
+
+  A --> goods("🖥 💻 ⌚️ 📷 🎥")
+  dropship["✈️  📦 📦 📦"] --- goods
+  dropship-->people
+  A --"💵"--> acc1
+  A --"💵"--> state
+
+  subgraph Corp. B
+   B["🏡"]
+   acc2(("📊"))
+  end
+
+  B-->acc2
+  people--"💵"-->B
+  B --> clothes("👕 👔 👗 👖 👠 👞 👜 👙")
+  ship["🚢 📦 📦 📦"] --- clothes
+  ship-->people
+
+  subgraph Corp. C
+    C["🏫"]
+    acc3(("📊"))
+    c1(("👨"))
+    c2(("👨🏻"))
+    c3(("👨🏻"))
+    C---c1
+    C---c2
+    C---c3
+  end
+
+  c3-.-itnof
+
+  state--"💵"-->C
+  C--"📁"-->state
+  C--"💵"-->acc3
+
+  subgraph BTC
+    bank("💰💰💰<br>💰💰💰<br>💰💰💰<br>💰💰💰<br>💰💰💰")
+  end
+
+  in-.-bank
+
+  subgraph o
+    people["👱👱🙎👵👴‍🙎👱👱👵<br>👱👱👵👵🙎👱🙍👱🙍🙎<br>👱‍👵‍👱👵👱👵🙎🙎<br>👱👵🙎🙍👴👵🙍👱👵👱<br>"]
+    state["🏛"]
+    police(("👮"))
+  end
+
+
+  people --"💵"--> A
+
+  people --"💵"--> state
+  state --"💵"--> police
+  police --"👁"--> B
+
+  state --"👁"--> acc1
+  state --"👁"--> acc2
+  state --"👁"--> acc3
+  acc1-."💰💰💰".->itnof
+  acc2-."💰💰💰".->itnof
+  acc3-."💰💰💰".->itnof
+
+
+  style state stroke:red;
+  classDef whiteBG fill:#FFF,stroke:#FFF,stroke-width:1px;
+  class people,police whiteBG;
