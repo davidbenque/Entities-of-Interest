@@ -2,11 +2,10 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 # GIANT WINNER LTD.
 
-[comment]: <> (Add/Remove information below as you want)
-[comment]: <> (Markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 [Brief](Brief.md)  
-by:  
+by: Clara Wassak  
 date:  
 
----
-[comment]: <> (Add your content here)
+[]: >
+
+![GIANT_WIENER](GIANT_WIENER.gif)

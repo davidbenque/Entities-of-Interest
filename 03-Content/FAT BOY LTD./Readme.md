@@ -2,11 +2,8 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 # FAT BOY LTD.
 
-[comment]: <> (Add/Remove information below as you want)
-[comment]: <> (Markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 [Brief](Brief.md)  
-by:  
-date:  
+by:  CHRISTINE AND SHUANG ZHOU
+date:  17_06_18
 
----
-[comment]: <> (Add your content here)
+![FAT_BOY](FAT_BOY.jpg)

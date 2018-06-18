@@ -2,11 +2,13 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 # DRAGON HILL LIMITED
 
-[comment]: <> (Add/Remove information below as you want)
-[comment]: <> (Markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[comment]: &lt;> "Add/Remove information below as you want"
+[comment]: &lt;> "Markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet"
 [Brief](Brief.md)  
-by:  
-date:  
+by:  Young Hahn
+date:  17.6.2018
 
 ---
-[comment]: <> (Add your content here)
+[comment]: &lt;> "Add your content here"
+
+![IMG_5630](IMG_5630.jpg)

@@ -2,11 +2,14 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 # GOLD DIGGER INTERNATIONAL LIMITED
 
-[comment]: <> (Add/Remove information below as you want)
-[comment]: <> (Markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 [Brief](Brief.md)  
-by:  
-date:  
+by: Ye 
+date:
 
----
-[comment]: <> (Add your content here)
+<iframe src="https://player.vimeo.com/video/275497267" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+  
+
+![Gold_digger_logo](Gold_digger_logo.jpg)
+
+![Gold_digger_logo](GOLD_DIGGER_LTD.jpg)

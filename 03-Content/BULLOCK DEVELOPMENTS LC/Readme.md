@@ -1,12 +1,10 @@
-#### [Entities of Interest](/list.html)
+
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 # BULLOCK DEVELOPMENTS LC
 
-[comment]: <> (Add/Remove information below as you want)
-[comment]: <> (Markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[]: >
 [Brief](Brief.md)  
-by:  
-date:  
+by:  Yuri Gagarin
+date:  17 June 2018
 
----
-[comment]: <> (Add your content here)
+![Bullock Developments LC](Bullock_Developments_LC.jpg)

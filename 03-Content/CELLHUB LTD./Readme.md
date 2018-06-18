@@ -2,11 +2,11 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 # CELLHUB LTD.
 
-[comment]: <> (Add/Remove information below as you want)
-[comment]: <> (Markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 [Brief](Brief.md)  
-by:  
-date:  
+by:  @aadhyab
+date:  17 June 2018
 
 ---
-[comment]: <> (Add your content here)
+[]: >
+
+![Mitochondria](Mitochondria.gif)
