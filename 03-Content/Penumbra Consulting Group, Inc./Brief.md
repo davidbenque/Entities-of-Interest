@@ -1,42 +1,16 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/Penumbra_Consulting_Group,_Inc..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # Penumbra Consulting Group, Inc.
-Company_Type: Business Company Limited by Shares
+<span>Company_Type: Business Company Limited by Shares
 Status: Dead
 Address: Companies Incorporated 28015 Smyth Drive Valencia CA 91355 USA RT BVI
-
-## Stakeholders
-DIRECTOR
-Ronald G.Ferguson
-United States
-
-
-DIRECTOR
-Carroll M.Rogers
-United States
-
-
-DIRECTOR
-Mohana S. More
-United States
-
-
-DIRECTOR
-Shashank S. More
-United States
-
-
-INTERMEDIARY
-Companies Incorporated
-United States
-
-
-REGISTERED_ADDRESS
-Companies Incorporated 28015 Smyth Drive Valencia CA 91355 USA
-United States
-
-
+</span>
 
 ---
 
@@ -50,8 +24,37 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/Penumbra_Consulting_Group,_Inc..png" alt="">
+## Stakeholders
+<span>DIRECTOR
+Ronald G.Ferguson
+United States
+</span>
+
+<span>DIRECTOR
+Carroll M.Rogers
+United States
+</span>
+
+<span>DIRECTOR
+Mohana S. More
+United States
+</span>
+
+<span>DIRECTOR
+Shashank S. More
+United States
+</span>
+
+<span>INTERMEDIARY
+Companies Incorporated
+United States
+</span>
+
+<span>REGISTERED_ADDRESS
+Companies Incorporated 28015 Smyth Drive Valencia CA 91355 USA
+United States
+</span>
 

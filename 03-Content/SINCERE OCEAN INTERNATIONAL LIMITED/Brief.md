@@ -1,28 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/SINCERE_OCEAN_INTERNATIONAL_LIMITED.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # SINCERE OCEAN INTERNATIONAL LIMITED
-Status: Defaulted
+<span>Status: Defaulted
 Address: GREAT OCEAN CPAS & CO. LTD 7F-2; 5; SEC 2 TUN-HUA S. RD.; TAIPEI; TAIWAN; R.O.C.
-
-## Stakeholders
-SHAREHOLDER
-MOSSFON SUBSCRIBERS LTD.
-Samoa
-
-
-SHAREHOLDER
-LIN, CHAO-FENG
-Taiwan
-
-
-INTERMEDIARY
-GREAT OCEAN CPAS & CO. LTD.
-GREAT OCEAN CPAS & CO. LTD 7F-2; 5; SEC 2 TUN-HUA S. RD.; TAIPEI; TAIWAN; R.O.C.
-Taiwan
-
-
-
+</span>
 
 ---
 
@@ -36,8 +23,24 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/SINCERE_OCEAN_INTERNATIONAL_LIMITED.png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+MOSSFON SUBSCRIBERS LTD.
+Samoa
+</span>
+
+<span>SHAREHOLDER
+LIN, CHAO-FENG
+Taiwan
+</span>
+
+<span>INTERMEDIARY
+GREAT OCEAN CPAS & CO. LTD.
+GREAT OCEAN CPAS & CO. LTD 7F-2; 5; SEC 2 TUN-HUA S. RD.; TAIPEI; TAIWAN; R.O.C.
+Taiwan
+</span>
+
 

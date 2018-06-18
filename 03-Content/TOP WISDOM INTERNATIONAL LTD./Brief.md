@@ -1,28 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/TOP_WISDOM_INTERNATIONAL_LTD..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # TOP WISDOM INTERNATIONAL LTD.
-Status: Defaulted
+<span>Status: Defaulted
 Address: DI SAN DI MANAGEMENT COMPANY LIMITED 7F- 4; NO.50; SEC. 1; XINSHENG S. RD.; TAIPEI; TAIWAN
-
-## Stakeholders
-SHAREHOLDER
-SUN, CHENG-JUI
-China
-
-
-SHAREHOLDER
-MOSSFON SUBSCRIBERS LTD.
-Samoa
-
-
-INTERMEDIARY
-DI SAN DI MANAGEMENT COMPANY LIMITED
-DI SAN DI MANAGEMENT COMPANY LIMITED 7F- 4; NO.50; SEC. 1; XINSHENG S. RD.; TAIPEI; TAIWAN
-Taiwan
-
-
-
+</span>
 
 ---
 
@@ -36,8 +23,24 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/TOP_WISDOM_INTERNATIONAL_LTD..png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+SUN, CHENG-JUI
+China
+</span>
+
+<span>SHAREHOLDER
+MOSSFON SUBSCRIBERS LTD.
+Samoa
+</span>
+
+<span>INTERMEDIARY
+DI SAN DI MANAGEMENT COMPANY LIMITED
+DI SAN DI MANAGEMENT COMPANY LIMITED 7F- 4; NO.50; SEC. 1; XINSHENG S. RD.; TAIPEI; TAIWAN
+Taiwan
+</span>
+
 

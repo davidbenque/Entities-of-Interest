@@ -1,23 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/GRACEFUL_SINCERE_ENTERPRISES_LIMITED.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # GRACEFUL SINCERE ENTERPRISES LIMITED
-Status: Defaulted
+<span>Status: Defaulted
 Address: ALLBRIGHT LAW OFFICES(HANGZHOU) 5/F; BLOCK A; HUAHONG BUILDING; NO.238 TIANMUSHAN ROAD; HANGZHOU CITY ZHEJIANG PROVINCE.; P.R. CHINA 310005 *S.I.*
-
-## Stakeholders
-SHAREHOLDER
-MONG SING MANAGEMENT LTD.
-British Virgin Islands
-
-
-INTERMEDIARY
-ALLBRIGHT LAW OFFICES (HANGZHOU)
-ALLBRIGHT LAW OFFICES(HANGZHOU) 5/F; BLOCK A; HUAHONG BUILDING; NO.238 TIANMUSHAN ROAD; HANGZHOU CITY ZHEJIANG PROVINCE.; P.R. CHINA 310005 *S.I.*
-China
-
-
-
+</span>
 
 ---
 
@@ -31,8 +23,19 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/GRACEFUL_SINCERE_ENTERPRISES_LIMITED.png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+MONG SING MANAGEMENT LTD.
+British Virgin Islands
+</span>
+
+<span>INTERMEDIARY
+ALLBRIGHT LAW OFFICES (HANGZHOU)
+ALLBRIGHT LAW OFFICES(HANGZHOU) 5/F; BLOCK A; HUAHONG BUILDING; NO.238 TIANMUSHAN ROAD; HANGZHOU CITY ZHEJIANG PROVINCE.; P.R. CHINA 310005 *S.I.*
+China
+</span>
+
 

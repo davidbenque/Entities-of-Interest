@@ -1,33 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/Safety_Device_International_Limited.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # Safety Device International Limited
-Status: Active
+<span>Status: Active
 Address: ORION HOUSE SERVICES (HK) LIMITED ROOM 1401; 14/F.; WORLD COMMERCE  CENTRE; HARBOUR CITY; 7-11 CANTON ROAD; TSIM SHA TSUI; KOWLOON; HONG KONG
-
-## Stakeholders
-SHAREHOLDER
-HOMESTEAD INTERNATIONAL LTD.
-Anguilla
-
-
-SHAREHOLDER
-LI HUIHUI
-China
-
-
-SHAREHOLDER
-MOSSFON SUBSCRIBERS LTD.
-Samoa
-
-
-INTERMEDIARY
-ORION HOUSE SERVICES (HK) LIMITED
-ORION HOUSE SERVICES (HK) LIMITED ROOM 1401; 14/F.; WORLD COMMERCE  CENTRE; HARBOUR CITY; 7-11 CANTON ROAD; TSIM SHA TSUI; KOWLOON; HONG KONG
-Hong Kong
-
-
-
+</span>
 
 ---
 
@@ -41,8 +23,29 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/Safety_Device_International_Limited.png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+HOMESTEAD INTERNATIONAL LTD.
+Anguilla
+</span>
+
+<span>SHAREHOLDER
+LI HUIHUI
+China
+</span>
+
+<span>SHAREHOLDER
+MOSSFON SUBSCRIBERS LTD.
+Samoa
+</span>
+
+<span>INTERMEDIARY
+ORION HOUSE SERVICES (HK) LIMITED
+ORION HOUSE SERVICES (HK) LIMITED ROOM 1401; 14/F.; WORLD COMMERCE  CENTRE; HARBOUR CITY; 7-11 CANTON ROAD; TSIM SHA TSUI; KOWLOON; HONG KONG
+Hong Kong
+</span>
+
 

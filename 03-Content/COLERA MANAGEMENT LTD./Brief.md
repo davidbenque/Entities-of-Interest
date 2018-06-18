@@ -1,18 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/COLERA_MANAGEMENT_LTD..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # COLERA MANAGEMENT LTD.
-Status: Defaulted
+<span>Status: Defaulted
 Address: AOS CONSULTING LIMITED ATTN.: OXANA UTENKOVA; RIETUMU CAPITAL CENTRE 3RD FLOOR; 7 VESETAS STREET; RIGA LV-1013; RIGA LATVIA
-
-## Stakeholders
-INTERMEDIARY
-GOLDSTAR EQUITY LTD
-AOS CONSULTING LIMITED ATTN.: OXANA UTENKOVA; RIETUMU CAPITAL CENTRE 3RD FLOOR; 7 VESETAS STREET; RIGA LV-1013; RIGA LATVIA
-Latvia
-
-
-
+</span>
 
 ---
 
@@ -26,8 +23,14 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/COLERA_MANAGEMENT_LTD..png" alt="">
+## Stakeholders
+<span>INTERMEDIARY
+GOLDSTAR EQUITY LTD
+AOS CONSULTING LIMITED ATTN.: OXANA UTENKOVA; RIETUMU CAPITAL CENTRE 3RD FLOOR; 7 VESETAS STREET; RIGA LV-1013; RIGA LATVIA
+Latvia
+</span>
+
 

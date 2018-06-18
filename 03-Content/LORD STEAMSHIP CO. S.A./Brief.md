@@ -1,18 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/LORD_STEAMSHIP_CO._S.A..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # LORD STEAMSHIP CO. S.A.
-Status: Defaulted
+<span>Status: Defaulted
 Address: WILKINSON & GRIST 6TH FLOOR; PRINCE'S BUILDING 10 CHATER ROAD; CENTRAL  HONG KONG
-
-## Stakeholders
-INTERMEDIARY
-WILKINSON & GRIST (KOWLOON)
-WILKINSON & GRIST 6TH FLOOR; PRINCE'S BUILDING 10 CHATER ROAD; CENTRAL  HONG KONG
-Hong Kong
-
-
-
+</span>
 
 ---
 
@@ -26,8 +23,14 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/LORD_STEAMSHIP_CO._S.A..png" alt="">
+## Stakeholders
+<span>INTERMEDIARY
+WILKINSON & GRIST (KOWLOON)
+WILKINSON & GRIST 6TH FLOOR; PRINCE'S BUILDING 10 CHATER ROAD; CENTRAL  HONG KONG
+Hong Kong
+</span>
+
 

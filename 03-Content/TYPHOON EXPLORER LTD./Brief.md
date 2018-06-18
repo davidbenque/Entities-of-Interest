@@ -1,21 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/TYPHOON_EXPLORER_LTD..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # TYPHOON EXPLORER LTD.
-Status: Defaulted
+<span>Status: Defaulted
 Address: TYPHOON EXPLORER LTD. BUFETE G. PRETUS DEVELOPMENT BANK OF SAMOA; LEVEL 5; BEACH ROAD. APIA; SAMOA *S.I.* APIA SAMOA
-
-## Stakeholders
-SHAREHOLDER
-THE BEARER
-
-
-INTERMEDIARY
-(GENEVA CLIENT) BUFETE G. PRETUS
-Spain
-
-
-
+</span>
 
 ---
 
@@ -29,8 +23,17 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/TYPHOON_EXPLORER_LTD..png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+THE BEARER
+</span>
+
+<span>INTERMEDIARY
+(GENEVA CLIENT) BUFETE G. PRETUS
+Spain
+</span>
+
 

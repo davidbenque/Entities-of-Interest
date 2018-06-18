@@ -1,18 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/MEADOW_HOLDINGS_INC..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # MEADOW HOLDINGS INC.
-Status: Trash company
+<span>Status: Trash company
 Address: MANAGEMENT CONSULTING ENTERPRISES INC. A/C DE A.M. QUECUTY APARTADO DE CORREOS 811 29080 MALAGA ESPAÑA
-
-## Stakeholders
-INTERMEDIARY
-MANAGEMENT CONSULTING ENTERPRISES INC.
-MANAGEMENT CONSULTING ENTERPRISES INC. A/C DE A.M. QUECUTY APARTADO DE CORREOS 811 29080 MALAGA ESPAÑA
-Spain
-
-
-
+</span>
 
 ---
 
@@ -26,8 +23,14 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/MEADOW_HOLDINGS_INC..png" alt="">
+## Stakeholders
+<span>INTERMEDIARY
+MANAGEMENT CONSULTING ENTERPRISES INC.
+MANAGEMENT CONSULTING ENTERPRISES INC. A/C DE A.M. QUECUTY APARTADO DE CORREOS 811 29080 MALAGA ESPAÑA
+Spain
+</span>
+
 

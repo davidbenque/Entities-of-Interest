@@ -1,45 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/DREAM_DESIGN_FACTORY_LLC.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # DREAM DESIGN FACTORY LLC
-Status: Defaulted
+<span>Status: Defaulted
 Address: HORIZON INVESTMENT S.A. RUE DE HOLLANDE; 4  1204; GENEVA SWITZERLAND
-
-## Stakeholders
-SHAREHOLDER
-Mr. Dogan EKMEKCI
-Turkey
-
-
-SHAREHOLDER
-Mr. Dogan EKMEKCI
-Turkey
-
-
-SHAREHOLDER
-Mr. Mustafa ARHAN KAYAR
-Turkey
-
-
-SHAREHOLDER
-RAYWALL CONSULTANTS LTD.
-British Virgin Islands
-
-
-SHAREHOLDER
-MR. DOGAN EKMEKCI
-
-
-SHAREHOLDER
-MR. MUSTAFA ARHAN KAYAR
-
-
-INTERMEDIARY
-HORIZON INVESTMENT SA
-Switzerland
-
-
-
+</span>
 
 ---
 
@@ -53,8 +23,41 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/DREAM_DESIGN_FACTORY_LLC.png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+Mr. Dogan EKMEKCI
+Turkey
+</span>
+
+<span>SHAREHOLDER
+Mr. Dogan EKMEKCI
+Turkey
+</span>
+
+<span>SHAREHOLDER
+Mr. Mustafa ARHAN KAYAR
+Turkey
+</span>
+
+<span>SHAREHOLDER
+RAYWALL CONSULTANTS LTD.
+British Virgin Islands
+</span>
+
+<span>SHAREHOLDER
+MR. DOGAN EKMEKCI
+</span>
+
+<span>SHAREHOLDER
+MR. MUSTAFA ARHAN KAYAR
+</span>
+
+<span>INTERMEDIARY
+HORIZON INVESTMENT SA
+Switzerland
+</span>
+
 

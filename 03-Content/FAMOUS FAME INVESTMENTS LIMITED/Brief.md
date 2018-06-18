@@ -1,23 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/FAMOUS_FAME_INVESTMENTS_LIMITED.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # FAMOUS FAME INVESTMENTS LIMITED
-Status: Shelf company
+<span>Status: Shelf company
 Address: MOSSACK FONSECA & CO. MOSSFON BUILDING CALLE 54 ESTE PANAMA, REPUBLICA DE PANAMA
-
-## Stakeholders
-SHAREHOLDER
-MOSSFON SUBSCRIBERS LTD.
-Samoa
-
-
-INTERMEDIARY
-MOSSACK FONSECA & CO.
-MOSSACK FONSECA & CO. MOSSFON BUILDING CALLE 54 ESTE PANAMA, REPUBLICA DE PANAMA
-Panama
-
-
-
+</span>
 
 ---
 
@@ -31,8 +23,19 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/FAMOUS_FAME_INVESTMENTS_LIMITED.png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+MOSSFON SUBSCRIBERS LTD.
+Samoa
+</span>
+
+<span>INTERMEDIARY
+MOSSACK FONSECA & CO.
+MOSSACK FONSECA & CO. MOSSFON BUILDING CALLE 54 ESTE PANAMA, REPUBLICA DE PANAMA
+Panama
+</span>
+
 

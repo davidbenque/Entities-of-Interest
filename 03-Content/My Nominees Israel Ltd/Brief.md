@@ -1,27 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/My_Nominees_Israel_Ltd.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # My Nominees Israel Ltd
-Status: Active
+<span>Status: Active
 Address: GRANOT & CO. 125, MENACHEM BEGIN  ST. HAYOVEL TOWER (28TH FLOOR) P.O.B 7398 TEL AVIV  67012 ISRAEL
-
-## Stakeholders
-BENEFICIARY
-Trevor Henry Green
-United Kingdom
-
-
-SHAREHOLDER
-Trevor Henry Green
-United Kingdom
-
-
-INTERMEDIARY
-GRANOT
-Israel
-
-
-
+</span>
 
 ---
 
@@ -35,8 +23,23 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/My_Nominees_Israel_Ltd.png" alt="">
+## Stakeholders
+<span>BENEFICIARY
+Trevor Henry Green
+United Kingdom
+</span>
+
+<span>SHAREHOLDER
+Trevor Henry Green
+United Kingdom
+</span>
+
+<span>INTERMEDIARY
+GRANOT
+Israel
+</span>
+
 

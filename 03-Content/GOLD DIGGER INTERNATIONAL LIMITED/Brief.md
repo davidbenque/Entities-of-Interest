@@ -1,27 +1,16 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/GOLD_DIGGER_INTERNATIONAL_LIMITED.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # GOLD DIGGER INTERNATIONAL LIMITED
-Company_Type: Business Company Limited by Shares
+<span>Company_Type: Business Company Limited by Shares
 Status: Dead
 Address: Company Kit Limited Unit A, 6/F Shun On Comm Bldg. 112-114 Des Voeux Road C., Hong Kong  SAR RT BVI
-
-## Stakeholders
-DIRECTOR
-Company Kit Nominees Inc
-Hong Kong
-
-
-INTERMEDIARY
-Company Kit Limited
-Hong Kong
-
-
-REGISTERED_ADDRESS
-Company Kit Limited Unit A, 6/F Shun On Comm Bldg. 112-114 Des Voeux Road C., Hong Kong  SAR
-Hong Kong
-
-
+</span>
 
 ---
 
@@ -35,8 +24,22 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/GOLD_DIGGER_INTERNATIONAL_LIMITED.png" alt="">
+## Stakeholders
+<span>DIRECTOR
+Company Kit Nominees Inc
+Hong Kong
+</span>
+
+<span>INTERMEDIARY
+Company Kit Limited
+Hong Kong
+</span>
+
+<span>REGISTERED_ADDRESS
+Company Kit Limited Unit A, 6/F Shun On Comm Bldg. 112-114 Des Voeux Road C., Hong Kong  SAR
+Hong Kong
+</span>
 

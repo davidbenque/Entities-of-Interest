@@ -1,28 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/SUPER_TRADING_LIMITED.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # SUPER TRADING LIMITED
-Status: Defaulted
+<span>Status: Defaulted
 Address: TOPWORLD REGISTRATIONS LTD. 7/F; KIN ON COMMERCIAL BLDG. 49-51 JERVOIS ST; SHEUNG WAN HONG KONG
-
-## Stakeholders
-SHAREHOLDER
-BART FRANS-JOZEF VRIJSEN
-Netherlands
-
-
-SHAREHOLDER
-PETRUS MARIA JOSEPHUS BEKERS
-Netherlands
-
-
-INTERMEDIARY
-TOPWORLD REGISTRATIONS LTD.
-TOPWORLD REGISTRATIONS LTD. 7/F; KIN ON COMMERCIAL BLDG. 49-51 JERVOIS ST; SHEUNG WAN HONG KONG
-Hong Kong
-
-
-
+</span>
 
 ---
 
@@ -36,8 +23,24 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/SUPER_TRADING_LIMITED.png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+BART FRANS-JOZEF VRIJSEN
+Netherlands
+</span>
+
+<span>SHAREHOLDER
+PETRUS MARIA JOSEPHUS BEKERS
+Netherlands
+</span>
+
+<span>INTERMEDIARY
+TOPWORLD REGISTRATIONS LTD.
+TOPWORLD REGISTRATIONS LTD. 7/F; KIN ON COMMERCIAL BLDG. 49-51 JERVOIS ST; SHEUNG WAN HONG KONG
+Hong Kong
+</span>
+
 

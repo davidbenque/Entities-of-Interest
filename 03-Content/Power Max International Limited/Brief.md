@@ -1,22 +1,16 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/Power_Max_International_Limited.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # Power Max International Limited
-Company_Type: Standard Company under IBC Act
+<span>Company_Type: Standard Company under IBC Act
 Status: Dead
 Address: Panocean Secretarial Services Limited Room 1708 Kai Tak Commercial Building 317-321 Des Voeux Road C Hong Kong RT BVI
-
-## Stakeholders
-INTERMEDIARY
-Panocean Secretarial Services Limited
-Hong Kong
-
-
-REGISTERED_ADDRESS
-Panocean Secretarial Services Limited Room 1708 Kai Tak Commercial Building 317-321 Des Voeux Road C Hong Kong
-Hong Kong
-
-
+</span>
 
 ---
 
@@ -30,8 +24,17 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/Power_Max_International_Limited.png" alt="">
+## Stakeholders
+<span>INTERMEDIARY
+Panocean Secretarial Services Limited
+Hong Kong
+</span>
+
+<span>REGISTERED_ADDRESS
+Panocean Secretarial Services Limited Room 1708 Kai Tak Commercial Building 317-321 Des Voeux Road C Hong Kong
+Hong Kong
+</span>
 

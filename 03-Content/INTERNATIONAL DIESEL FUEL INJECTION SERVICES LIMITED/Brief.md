@@ -1,38 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/INTERNATIONAL_DIESEL_FUEL_INJECTION_SERVICES_LIMITED.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # INTERNATIONAL DIESEL FUEL INJECTION SERVICES LIMITED
-Status: Active
+<span>Status: Active
 Address: LAWRENCE CHAN & CO. CERTIFIED PUBLIC ACCOUNTANTS SUITE 601A; FOURSEAS BUILDING 208-212 NATHAN ROAD TSIMSHATSUI; KOWLOON HONG KONG
-
-## Stakeholders
-SHAREHOLDER
-POON SHI SHUN
-Hong Kong
-
-
-SHAREHOLDER
-MOSSFON SUBSCRIBERS LTD
-Samoa
-
-
-SHAREHOLDER
-LI KIM MING
-Hong Kong
-
-
-SHAREHOLDER
-POON SHUI KI
-Hong Kong
-
-
-INTERMEDIARY
-LAWRENCE CHAN & CO.
-LAWRENCE CHAN & CO. CERTIFIED PUBLIC ACCOUNTANTS SUITE 601A; FOURSEAS BUILDING 208-212 NATHAN ROAD TSIMSHATSUI; KOWLOON HONG KONG
-Hong Kong
-
-
-
+</span>
 
 ---
 
@@ -46,8 +23,34 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/INTERNATIONAL_DIESEL_FUEL_INJECTION_SERVICES_LIMITED.png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+POON SHI SHUN
+Hong Kong
+</span>
+
+<span>SHAREHOLDER
+MOSSFON SUBSCRIBERS LTD
+Samoa
+</span>
+
+<span>SHAREHOLDER
+LI KIM MING
+Hong Kong
+</span>
+
+<span>SHAREHOLDER
+POON SHUI KI
+Hong Kong
+</span>
+
+<span>INTERMEDIARY
+LAWRENCE CHAN & CO.
+LAWRENCE CHAN & CO. CERTIFIED PUBLIC ACCOUNTANTS SUITE 601A; FOURSEAS BUILDING 208-212 NATHAN ROAD TSIMSHATSUI; KOWLOON HONG KONG
+Hong Kong
+</span>
+
 

@@ -1,20 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/TOTAL_TIRE_LLC.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # TOTAL TIRE LLC
-Status: Active
+<span>Status: Active
 Address: JOSIE BEN RUBI TORRE DE LAS AMERICAS PUNTA PACIFICA, PISO B-402 PANAMA CITY PANAMA
-
-## Stakeholders
-INTERMEDIARY
-BRICO LAW FIRM
-
-
-REGISTERED_ADDRESS
-JOSIE BEN RUBI TORRE DE LAS AMERICAS PUNTA PACIFICA, PISO B-402 PANAMA CITY PANAMA
-Panama
-
-
+</span>
 
 ---
 
@@ -28,8 +23,16 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/TOTAL_TIRE_LLC.png" alt="">
+## Stakeholders
+<span>INTERMEDIARY
+BRICO LAW FIRM
+</span>
+
+<span>REGISTERED_ADDRESS
+JOSIE BEN RUBI TORRE DE LAS AMERICAS PUNTA PACIFICA, PISO B-402 PANAMA CITY PANAMA
+Panama
+</span>
 

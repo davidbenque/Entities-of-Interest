@@ -1,18 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/FLOATING_INC..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # FLOATING INC.
-Status: Dissolved
+<span>Status: Dissolved
 Address: EXPERTA CORPORATE & TRUST SERVICES 42, RUE DE LA VALLÉE L-2661 LUXEMBOURG CITY LUXEMBOURG
-
-## Stakeholders
-INTERMEDIARY
-EXPERTA CORPORATE & TRUST SERVICES
-EXPERTA CORPORATE & TRUST SERVICES 42, RUE DE LA VALLÉE L-2661 LUXEMBOURG CITY LUXEMBOURG
-Luxembourg
-
-
-
+</span>
 
 ---
 
@@ -26,8 +23,14 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/FLOATING_INC..png" alt="">
+## Stakeholders
+<span>INTERMEDIARY
+EXPERTA CORPORATE & TRUST SERVICES
+EXPERTA CORPORATE & TRUST SERVICES 42, RUE DE LA VALLÉE L-2661 LUXEMBOURG CITY LUXEMBOURG
+Luxembourg
+</span>
+
 

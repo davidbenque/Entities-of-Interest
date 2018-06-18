@@ -1,18 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/CAVE_HOLDINGS_INC..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # CAVE HOLDINGS INC.
-Status: Dissolved
+<span>Status: Dissolved
 Address: HSBC TRUSTEE (C.I.) LIMITED  HSBC HOUSE; ESPLANADE ST. HELIER; JERSEY; JE1 1GT CHANNEL ISLANDS
-
-## Stakeholders
-INTERMEDIARY
-HSBC TRUSTEE (C.I.) LIMITED
-HSBC TRUSTEE (C.I.) LIMITED P.O. BOX 88 1 GRENVILLE STREET ST. HELIER, JERSEY JE4 9PF CHANNEL ISLANDS UNITED KINGDOM *S.I.*
-Jersey;United Kingdom
-
-
-
+</span>
 
 ---
 
@@ -26,8 +23,14 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/CAVE_HOLDINGS_INC..png" alt="">
+## Stakeholders
+<span>INTERMEDIARY
+HSBC TRUSTEE (C.I.) LIMITED
+HSBC TRUSTEE (C.I.) LIMITED P.O. BOX 88 1 GRENVILLE STREET ST. HELIER, JERSEY JE4 9PF CHANNEL ISLANDS UNITED KINGDOM *S.I.*
+Jersey;United Kingdom
+</span>
+
 

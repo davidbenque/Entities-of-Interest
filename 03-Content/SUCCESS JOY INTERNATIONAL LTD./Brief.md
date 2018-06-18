@@ -1,18 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/SUCCESS_JOY_INTERNATIONAL_LTD..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # SUCCESS JOY INTERNATIONAL LTD.
-Status: Defaulted
+<span>Status: Defaulted
 Address: INTERNATIONAL SECRETARIES LIMITED 13/F; PICO TOWER 66 GLOUCESTER ROAD WANCHAI; HONG KONG
-
-## Stakeholders
-INTERMEDIARY
-INTERNATIONAL SECRETARIES LIMITED
-INTERNATIONAL SECRETARIES LIMITED 13/F; PICO TOWER 66 GLOUCESTER ROAD WANCHAI; HONG KONG
-Hong Kong
-
-
-
+</span>
 
 ---
 
@@ -26,8 +23,14 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/SUCCESS_JOY_INTERNATIONAL_LTD..png" alt="">
+## Stakeholders
+<span>INTERMEDIARY
+INTERNATIONAL SECRETARIES LIMITED
+INTERNATIONAL SECRETARIES LIMITED 13/F; PICO TOWER 66 GLOUCESTER ROAD WANCHAI; HONG KONG
+Hong Kong
+</span>
+
 

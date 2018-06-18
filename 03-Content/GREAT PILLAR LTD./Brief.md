@@ -1,18 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/GREAT_PILLAR_LTD..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # GREAT PILLAR LTD.
-Status: Defaulted
+<span>Status: Defaulted
 Address: ANNIS WU & ASSOCIATES LIMITED ROOM 9C, TRUST TOWER 68 JOHNSTON ROAD WANCHAI HONG KONG
-
-## Stakeholders
-INTERMEDIARY
-ANNIS WU & ASSOCIATES LIMITED
-ANNIS WU & ASSOCIATES LIMITED ROOM 9C, TRUST TOWER 68 JOHNSTON ROAD WANCHAI HONG KONG
-Hong Kong
-
-
-
+</span>
 
 ---
 
@@ -26,8 +23,14 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/GREAT_PILLAR_LTD..png" alt="">
+## Stakeholders
+<span>INTERMEDIARY
+ANNIS WU & ASSOCIATES LIMITED
+ANNIS WU & ASSOCIATES LIMITED ROOM 9C, TRUST TOWER 68 JOHNSTON ROAD WANCHAI HONG KONG
+Hong Kong
+</span>
+
 

@@ -1,34 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
-<link rel="stylesheet" type="text/css" href="../../assets/style.css">
-#### [Entities of Interest](/list.html)
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/A.C._Futures_Inc..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
 
 # A.C. Futures Inc.
-Status: Dead
+<span>Status: Dead
 Address: Atlas Maritime Services Ltd. Ville Farm P.O. Box 9 Sark GY9 0SB Channel Is. via Guernsey
-
-## Stakeholders
-INTERMEDIARY
-Atlas Maritime Services Ltd.
-United Kingdom
-
-REGISTERED_ADDRESS
-Atlas Maritime Services Ltd. Ville Farm P.O. Box 9 Sark   (via Guernsey GY9 0SE) Channel Islands United Kingdom
-United Kingdom
-
-
-<div class="legend">
-Graph Legend
-<hr>
-<span class="focus">• A.C. Futures Inc.</span>
-<span class="entity">• Entities</span>
-<span class="intermediary">• Intermediaries</span>
-<span class="officer">• Officers</span>
-<span class="address">• Addresses</span>
-</div>
-
-<img src="graph.png" alt="">
+</span>
 
 ---
 
@@ -42,8 +23,17 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/A.C._Futures_Inc..png" alt="">
+## Stakeholders
+<span>INTERMEDIARY
+Atlas Maritime Services Ltd.
+United Kingdom
+</span>
+
+<span>REGISTERED_ADDRESS
+Atlas Maritime Services Ltd. Ville Farm P.O. Box 9 Sark   (via Guernsey GY9 0SE) Channel Islands United Kingdom
+United Kingdom
+</span>
 

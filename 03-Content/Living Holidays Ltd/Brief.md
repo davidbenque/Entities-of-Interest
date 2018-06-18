@@ -1,33 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/Living_Holidays_Ltd.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # Living Holidays Ltd
-Status: Active
+<span>Status: Active
 Address: CCA INTERSERV LTD 120; ST. URSULA STREET; VLT 1236 VAT REG NO: MT 1734-7234 VALLETTA MALTA
-
-## Stakeholders
-BENEFICIARY
-FEDERICO RODOLFO ARDUINO
-Greece
-
-
-SHAREHOLDER
-Always International Holdings Ltd
-Malta
-
-
-SHAREHOLDER
-CLARIS TRUSTEES & FIDUCIARIES LTD (New Name of Company) Claris Capital Ltd
-Malta
-
-
-INTERMEDIARY
-CHETCUTI CAUCHI
-CCA INTERSERV LTD 120; ST. URSULA STREET; VLT 1236 VAT REG NO: MT 1734-7234 VALLETTA MALTA
-Malta
-
-
-
+</span>
 
 ---
 
@@ -41,8 +23,29 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/Living_Holidays_Ltd.png" alt="">
+## Stakeholders
+<span>BENEFICIARY
+FEDERICO RODOLFO ARDUINO
+Greece
+</span>
+
+<span>SHAREHOLDER
+Always International Holdings Ltd
+Malta
+</span>
+
+<span>SHAREHOLDER
+CLARIS TRUSTEES & FIDUCIARIES LTD (New Name of Company) Claris Capital Ltd
+Malta
+</span>
+
+<span>INTERMEDIARY
+CHETCUTI CAUCHI
+CCA INTERSERV LTD 120; ST. URSULA STREET; VLT 1236 VAT REG NO: MT 1734-7234 VALLETTA MALTA
+Malta
+</span>
+
 

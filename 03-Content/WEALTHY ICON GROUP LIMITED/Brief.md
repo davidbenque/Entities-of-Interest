@@ -1,38 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/WEALTHY_ICON_GROUP_LIMITED.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # WEALTHY ICON GROUP LIMITED
-Status: Active
+<span>Status: Active
 Address: TOPWORLD REGISTRATIONS LTD. 7/F; KIN ON COMMERCIAL BLDG. 49-51 JERVOIS ST; SHEUNG WAN HONG KONG
-
-## Stakeholders
-SHAREHOLDER
-Jiayinchuangfu (Beijing) Investment Management Co., Ltd.
-China
-
-
-SHAREHOLDER
-GAO HUI
-China
-
-
-SHAREHOLDER
-MOSSFON SUBSCRIBERS LTD.
-Samoa
-
-
-SHAREHOLDER
-XIE LI
-China
-
-
-INTERMEDIARY
-TOPWORLD REGISTRATIONS LTD.
-TOPWORLD REGISTRATIONS LTD. 7/F; KIN ON COMMERCIAL BLDG. 49-51 JERVOIS ST; SHEUNG WAN HONG KONG
-Hong Kong
-
-
-
+</span>
 
 ---
 
@@ -46,8 +23,34 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/WEALTHY_ICON_GROUP_LIMITED.png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+Jiayinchuangfu (Beijing) Investment Management Co., Ltd.
+China
+</span>
+
+<span>SHAREHOLDER
+GAO HUI
+China
+</span>
+
+<span>SHAREHOLDER
+MOSSFON SUBSCRIBERS LTD.
+Samoa
+</span>
+
+<span>SHAREHOLDER
+XIE LI
+China
+</span>
+
+<span>INTERMEDIARY
+TOPWORLD REGISTRATIONS LTD.
+TOPWORLD REGISTRATIONS LTD. 7/F; KIN ON COMMERCIAL BLDG. 49-51 JERVOIS ST; SHEUNG WAN HONG KONG
+Hong Kong
+</span>
+
 

@@ -1,21 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/GOLDEN_GLARE_INTERNATIONAL_LLC.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # GOLDEN GLARE INTERNATIONAL LLC
-Status: Dissolved
+<span>Status: Dissolved
 Address: GOLDEN GLARE INTERNATIONAL LLC  RUA ALDA LUCHINI VIAL; 381 CONDOMINIO ANGELO VIAL; CAMPOLIM; SOROCABA; SP; BRAZIL
-
-## Stakeholders
-SHAREHOLDER
-LIVINGSTON GROUP S.A.
-
-
-INTERMEDIARY
-GOLDEN GLARE INTERNATIONAL LLC
-Brazil
-
-
-
+</span>
 
 ---
 
@@ -29,8 +23,17 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/GOLDEN_GLARE_INTERNATIONAL_LLC.png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+LIVINGSTON GROUP S.A.
+</span>
+
+<span>INTERMEDIARY
+GOLDEN GLARE INTERNATIONAL LLC
+Brazil
+</span>
+
 

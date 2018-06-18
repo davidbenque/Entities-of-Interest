@@ -1,18 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/LIBERTAS_VENTURES_LTD..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # LIBERTAS VENTURES LTD.
-Status: Defaulted
+<span>Status: Defaulted
 Address: BOND & COMPANY 35 BARRACK ROAD BELIZE CITY BELIZE  *S.I.*
-
-## Stakeholders
-INTERMEDIARY
-BOND & COMPANY
-CORPORATE HOUSE SUITE 320-1100 MELVILLE STREET VANCOUVER, BC; CANADA V6E 4A6 *S.I.*
-Canada
-
-
-
+</span>
 
 ---
 
@@ -26,8 +23,14 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/LIBERTAS_VENTURES_LTD..png" alt="">
+## Stakeholders
+<span>INTERMEDIARY
+BOND & COMPANY
+CORPORATE HOUSE SUITE 320-1100 MELVILLE STREET VANCOUVER, BC; CANADA V6E 4A6 *S.I.*
+Canada
+</span>
+
 

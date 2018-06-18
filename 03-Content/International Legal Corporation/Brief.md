@@ -1,23 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/International_Legal_Corporation.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # International Legal Corporation
-Status: Active
+<span>Status: Active
 Address: GIANCARLO DE LA GASCA AVENIDA OLIMPICA PASAJE CARIBE N.12, COL. ESCALON SAN SALVADOR EL SALVADOR
-
-## Stakeholders
-SHAREHOLDER
-LUIS GIANCARLO DE LA GASCA
-El Salvador
-
-
-INTERMEDIARY
-GIANCARLO DE LA GASCA
-GIANCARLO DE LA GASCA AVENIDA OLIMPICA PASAJE CARIBE N.12, COL. ESCALON SAN SALVADOR EL SALVADOR
-El Salvador
-
-
-
+</span>
 
 ---
 
@@ -31,8 +23,19 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/International_Legal_Corporation.png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+LUIS GIANCARLO DE LA GASCA
+El Salvador
+</span>
+
+<span>INTERMEDIARY
+GIANCARLO DE LA GASCA
+GIANCARLO DE LA GASCA AVENIDA OLIMPICA PASAJE CARIBE N.12, COL. ESCALON SAN SALVADOR EL SALVADOR
+El Salvador
+</span>
+
 

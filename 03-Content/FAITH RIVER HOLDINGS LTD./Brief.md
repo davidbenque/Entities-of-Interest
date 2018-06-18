@@ -1,18 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/FAITH_RIVER_HOLDINGS_LTD..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # FAITH RIVER HOLDINGS LTD.
-Status: Defaulted
+<span>Status: Defaulted
 Address: WORLD LINK BUSINESS SERVICES LTD 5/F., FAR EAST CONSORTIUM BUILDING 121 DES VOEUX ROAD C. CENTRAL HONG KONG
-
-## Stakeholders
-INTERMEDIARY
-WORLD LINK BUSINESS SERVICES LTD
-WORLD LINK BUSINESS SERVICES LTD 5/F., FAR EAST CONSORTIUM BUILDING 121 DES VOEUX ROAD C. CENTRAL HONG KONG
-Hong Kong
-
-
-
+</span>
 
 ---
 
@@ -26,8 +23,14 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/FAITH_RIVER_HOLDINGS_LTD..png" alt="">
+## Stakeholders
+<span>INTERMEDIARY
+WORLD LINK BUSINESS SERVICES LTD
+WORLD LINK BUSINESS SERVICES LTD 5/F., FAR EAST CONSORTIUM BUILDING 121 DES VOEUX ROAD C. CENTRAL HONG KONG
+Hong Kong
+</span>
+
 

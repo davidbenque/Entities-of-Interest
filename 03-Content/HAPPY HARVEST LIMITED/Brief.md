@@ -1,28 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/HAPPY_HARVEST_LIMITED.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # HAPPY HARVEST LIMITED
-Status: Defaulted
+<span>Status: Defaulted
 Address: JIANGSU JIN HUI REN LAW FIRM  ROOM 407; JIN DING PLAZA; 118 REN MIN ROAD; WUXI; JIANGSU PROVINCE; P. R. CHINA; 214002
-
-## Stakeholders
-SHAREHOLDER
-HE XIAO-JIANG
-China
-
-
-SHAREHOLDER
-MOSSFON SUBSCRIBERS LTD.
-Samoa
-
-
-INTERMEDIARY
-JIANGSU JIN HUI REN LAW FIRM
-JIANGSU JIN HUI REN LAW FIRM  ROOM 407; JIN DING PLAZA; 118 REN MIN ROAD; WUXI; JIANGSU PROVINCE; P. R. CHINA; 214002
-China
-
-
-
+</span>
 
 ---
 
@@ -36,8 +23,24 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/HAPPY_HARVEST_LIMITED.png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+HE XIAO-JIANG
+China
+</span>
+
+<span>SHAREHOLDER
+MOSSFON SUBSCRIBERS LTD.
+Samoa
+</span>
+
+<span>INTERMEDIARY
+JIANGSU JIN HUI REN LAW FIRM
+JIANGSU JIN HUI REN LAW FIRM  ROOM 407; JIN DING PLAZA; 118 REN MIN ROAD; WUXI; JIANGSU PROVINCE; P. R. CHINA; 214002
+China
+</span>
+
 

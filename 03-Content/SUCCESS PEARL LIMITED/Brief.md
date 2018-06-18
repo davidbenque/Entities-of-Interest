@@ -1,22 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/SUCCESS_PEARL_LIMITED.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # SUCCESS PEARL LIMITED
-Status: Defaulted
+<span>Status: Defaulted
 Address: XTERA COMMUNICATIONS INC.  500 W BETHANY DRIVE SUITE 100 ALLEN TEXAS; 75013; USA
-
-## Stakeholders
-SHAREHOLDER
-CHUNGMIN LU
-
-
-INTERMEDIARY
-XTERA COMMUNICATIONS INC.
-XTERA COMMUNICATIONS INC.  500 W BETHANY DRIVE SUITE 100 ALLEN TEXAS; 75013; USA
-United States
-
-
-
+</span>
 
 ---
 
@@ -30,8 +23,18 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/SUCCESS_PEARL_LIMITED.png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+CHUNGMIN LU
+</span>
+
+<span>INTERMEDIARY
+XTERA COMMUNICATIONS INC.
+XTERA COMMUNICATIONS INC.  500 W BETHANY DRIVE SUITE 100 ALLEN TEXAS; 75013; USA
+United States
+</span>
+
 

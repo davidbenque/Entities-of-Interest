@@ -1,18 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/PROPHET_INVESTMENTS_INC..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # PROPHET INVESTMENTS INC.
-Status: Dissolved
+<span>Status: Dissolved
 Address: HORWATH INTERNATIONAL P. O. BOX 274 HUGO CHAMBERS 35 HILGROVE STREET ST. HELIER, JERSEY JE4 8TZ CHANNEL ISLANDS
-
-## Stakeholders
-INTERMEDIARY
-HORWATH INTERNATIONAL
-HORWATH INTERNATIONAL P. O. BOX 274 HUGO CHAMBERS 35 HILGROVE STREET ST. HELIER, JERSEY JE4 8TZ CHANNEL ISLANDS
-Jersey;United Kingdom
-
-
-
+</span>
 
 ---
 
@@ -26,8 +23,14 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/PROPHET_INVESTMENTS_INC..png" alt="">
+## Stakeholders
+<span>INTERMEDIARY
+HORWATH INTERNATIONAL
+HORWATH INTERNATIONAL P. O. BOX 274 HUGO CHAMBERS 35 HILGROVE STREET ST. HELIER, JERSEY JE4 8TZ CHANNEL ISLANDS
+Jersey;United Kingdom
+</span>
+
 

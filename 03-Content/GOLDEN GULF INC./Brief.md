@@ -1,22 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/GOLDEN_GULF_INC..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # GOLDEN GULF INC.
-Status: Defaulted
+<span>Status: Defaulted
 Address: INTERNATIONAL COMPANY LAWYERS P.O.BOX 98  38612 EL MÉDANO  TENERIFE, SPAIN *S.I.*
-
-## Stakeholders
-SAME_COMPANY_AS
-GOLDEN GULF INC.
-
-
-INTERMEDIARY
-INTERNATIONAL COMPANY LAWYERS LTD.
-INTERNATIONAL COMPANY LAWYERS P.O.BOX 98  38612 EL MÉDANO  TENERIFE, SPAIN *S.I.*
-Spain
-
-
-
+</span>
 
 ---
 
@@ -30,8 +23,18 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/GOLDEN_GULF_INC..png" alt="">
+## Stakeholders
+<span>SAME_COMPANY_AS
+GOLDEN GULF INC.
+</span>
+
+<span>INTERMEDIARY
+INTERNATIONAL COMPANY LAWYERS LTD.
+INTERNATIONAL COMPANY LAWYERS P.O.BOX 98  38612 EL MÉDANO  TENERIFE, SPAIN *S.I.*
+Spain
+</span>
+
 

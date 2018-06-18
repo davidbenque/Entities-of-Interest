@@ -1,22 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/THE_GOLDEN_HOUSE_OF_EXCELLENCE_LTD..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # THE GOLDEN HOUSE OF EXCELLENCE LTD.
-Status: Defaulted
+<span>Status: Defaulted
 Address: ANCHOR TRUST COMPANY LIMITED P.O. BOX 496 CHARLES HOUSE; CHARLES STREET ST. HELIER; JERSEY JE4 5TD CHANNEL ISLANDS
-
-## Stakeholders
-SAME_COMPANY_AS
-GOLDEN HOUSE OF EXCELLENCE LTD., THE
-
-
-INTERMEDIARY
-ANCHOR TRUST COMPANY LIMITED
-ANCHOR TRUST COMPANY LIMITED P.O. BOX 496 CHARLES HOUSE; CHARLES STREET ST. HELIER; JERSEY JE4 5TD CHANNEL ISLANDS
-Jersey;United Kingdom
-
-
-
+</span>
 
 ---
 
@@ -30,8 +23,18 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/THE_GOLDEN_HOUSE_OF_EXCELLENCE_LTD..png" alt="">
+## Stakeholders
+<span>SAME_COMPANY_AS
+GOLDEN HOUSE OF EXCELLENCE LTD., THE
+</span>
+
+<span>INTERMEDIARY
+ANCHOR TRUST COMPANY LIMITED
+ANCHOR TRUST COMPANY LIMITED P.O. BOX 496 CHARLES HOUSE; CHARLES STREET ST. HELIER; JERSEY JE4 5TD CHANNEL ISLANDS
+Jersey;United Kingdom
+</span>
+
 

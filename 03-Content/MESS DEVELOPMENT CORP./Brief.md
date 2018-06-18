@@ -1,17 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/MESS_DEVELOPMENT_CORP..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # MESS DEVELOPMENT CORP.
-Status: Defaulted
+<span>Status: Defaulted
 Address: LIC. EDUARDO PALOMO  12 CALLE 1-25 ZONA 10; EDIF. GEMINIS 10; TORRE NORTE OFI. 1306 GUATEMALA
-
-## Stakeholders
-INTERMEDIARY
-EDUARDO PALOMO
-Guatemala
-
-
-
+</span>
 
 ---
 
@@ -25,8 +23,13 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/MESS_DEVELOPMENT_CORP..png" alt="">
+## Stakeholders
+<span>INTERMEDIARY
+EDUARDO PALOMO
+Guatemala
+</span>
+
 

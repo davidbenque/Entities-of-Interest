@@ -1,18 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/NICE_ONE_LIMITED.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # NICE ONE LIMITED
-Status: Defaulted
+<span>Status: Defaulted
 Address: PENNING-SCHILTZ-WURTH ATTN.: MR. PIERRE-OLIVIER WURTH  18, RUE ROBERT STÜMPER  L-2557 LUXEMBOURG
-
-## Stakeholders
-INTERMEDIARY
-PENNING-SCHILTZ-WURTH
-PENNING-SCHILTZ-WURTH ATTN.: MR. PIERRE-OLIVIER WURTH  18, RUE ROBERT STÜMPER  L-2557 LUXEMBOURG
-Luxembourg
-
-
-
+</span>
 
 ---
 
@@ -26,8 +23,14 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/NICE_ONE_LIMITED.png" alt="">
+## Stakeholders
+<span>INTERMEDIARY
+PENNING-SCHILTZ-WURTH
+PENNING-SCHILTZ-WURTH ATTN.: MR. PIERRE-OLIVIER WURTH  18, RUE ROBERT STÜMPER  L-2557 LUXEMBOURG
+Luxembourg
+</span>
+
 

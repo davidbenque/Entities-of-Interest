@@ -1,17 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/WAKE_UP_INC..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # WAKE UP INC.
-Status: Dissolved
+<span>Status: Dissolved
 Address: FIDES TRUST COMPANY BUOBENMATT 2 6003 LUCERNE SWITZERLAND
-
-## Stakeholders
-INTERMEDIARY
-FIDES TRUST COMPANY
-Switzerland
-
-
-
+</span>
 
 ---
 
@@ -25,8 +23,13 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/WAKE_UP_INC..png" alt="">
+## Stakeholders
+<span>INTERMEDIARY
+FIDES TRUST COMPANY
+Switzerland
+</span>
+
 

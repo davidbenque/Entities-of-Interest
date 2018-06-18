@@ -1,28 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/HAPPY_GALAXY_HOLDINGS_LIMITED.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # HAPPY GALAXY HOLDINGS LIMITED
-Status: Defaulted
+<span>Status: Defaulted
 Address: BEIJING HATI BUSINESS CONSULTANT LIMITED ROOM 2508; NO.3 BUILDING XIAN DAI CHENG; NO.88 JIAN GUO ROAD; CHAO YANG DISTRICT; BEIJING (PEKING) PEOPLE'S REPUBLIC OF CHINA
-
-## Stakeholders
-SHAREHOLDER
-WANG WEI MIN
-China
-
-
-SHAREHOLDER
-MOSSFON SUBSCRIBERS LTD.
-Samoa
-
-
-INTERMEDIARY
-BEIJING HATI BUSINESS CONSULTANT LIMITED
-BEIJING HATI BUSINESS CONSULTANT LIMITED ROOM 2508; NO.3 BUILDING XIAN DAI CHENG; NO.88 JIAN GUO ROAD; CHAO YANG DISTRICT; BEIJING (PEKING) PEOPLE'S REPUBLIC OF CHINA
-China
-
-
-
+</span>
 
 ---
 
@@ -36,8 +23,24 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/HAPPY_GALAXY_HOLDINGS_LIMITED.png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+WANG WEI MIN
+China
+</span>
+
+<span>SHAREHOLDER
+MOSSFON SUBSCRIBERS LTD.
+Samoa
+</span>
+
+<span>INTERMEDIARY
+BEIJING HATI BUSINESS CONSULTANT LIMITED
+BEIJING HATI BUSINESS CONSULTANT LIMITED ROOM 2508; NO.3 BUILDING XIAN DAI CHENG; NO.88 JIAN GUO ROAD; CHAO YANG DISTRICT; BEIJING (PEKING) PEOPLE'S REPUBLIC OF CHINA
+China
+</span>
+
 

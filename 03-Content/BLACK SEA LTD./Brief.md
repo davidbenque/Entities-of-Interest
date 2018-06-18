@@ -1,62 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/BLACK_SEA_LTD..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # BLACK SEA LTD.
-Status: Discontinued
+<span>Status: Discontinued
 Address: GESTION DE PATRIMOINE DU RHONE S.A. CASE POSTALE 5328  1211 GENEVA  11,  SWITZERLAND *S.I.*
-
-## Stakeholders
-SHAREHOLDER
-MOSSFON SUBSCRIBERS LTD.
-Samoa
-
-
-SHAREHOLDER
-THE BEARER
-
-
-SHAREHOLDER
-THE BEARER
-
-
-SHAREHOLDER
-THE BEARER
-
-
-SHAREHOLDER
-THE BEARER
-
-
-SHAREHOLDER
-THE BEARER
-
-
-SHAREHOLDER
-THE BEARER
-
-
-SHAREHOLDER
-THE BEARER
-
-
-SHAREHOLDER
-THE BEARER
-
-
-SHAREHOLDER
-THE BEARER
-
-
-SHAREHOLDER
-THE BEARER
-
-
-INTERMEDIARY
-GESTION DE PATRIMOINE DU RHONE S.A. (2)
-Switzerland
-
-
-
+</span>
 
 ---
 
@@ -70,8 +23,58 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/BLACK_SEA_LTD..png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+MOSSFON SUBSCRIBERS LTD.
+Samoa
+</span>
+
+<span>SHAREHOLDER
+THE BEARER
+</span>
+
+<span>SHAREHOLDER
+THE BEARER
+</span>
+
+<span>SHAREHOLDER
+THE BEARER
+</span>
+
+<span>SHAREHOLDER
+THE BEARER
+</span>
+
+<span>SHAREHOLDER
+THE BEARER
+</span>
+
+<span>SHAREHOLDER
+THE BEARER
+</span>
+
+<span>SHAREHOLDER
+THE BEARER
+</span>
+
+<span>SHAREHOLDER
+THE BEARER
+</span>
+
+<span>SHAREHOLDER
+THE BEARER
+</span>
+
+<span>SHAREHOLDER
+THE BEARER
+</span>
+
+<span>INTERMEDIARY
+GESTION DE PATRIMOINE DU RHONE S.A. (2)
+Switzerland
+</span>
+
 

@@ -1,28 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/DAVE'S_CUSTOM_TAILORING_CO.,_LTD..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # DAVE'S CUSTOM TAILORING CO., LTD.
-Status: Defaulted
+<span>Status: Defaulted
 Address: SHANGHAI HAIL YARE LAW FIRM 20/F; YU'AN BUILDING 738 DONGFANG ROAD; PUDONG SHANGHAI; CHINA
-
-## Stakeholders
-SHAREHOLDER
-MOSSFON SUBSCRIBERS LTD.
-Samoa
-
-
-SHAREHOLDER
-HSIUNG, YU-CHEN
-China
-
-
-INTERMEDIARY
-SHANGHAI HAIL YARE LAW FIRM
-SHANGHAI HAIL YARE LAW FIRM 20/F; YU'AN BUILDING 738 DONGFANG ROAD; PUDONG SHANGHAI; CHINA
-China
-
-
-
+</span>
 
 ---
 
@@ -36,8 +23,24 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/DAVE'S_CUSTOM_TAILORING_CO.,_LTD..png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+MOSSFON SUBSCRIBERS LTD.
+Samoa
+</span>
+
+<span>SHAREHOLDER
+HSIUNG, YU-CHEN
+China
+</span>
+
+<span>INTERMEDIARY
+SHANGHAI HAIL YARE LAW FIRM
+SHANGHAI HAIL YARE LAW FIRM 20/F; YU'AN BUILDING 738 DONGFANG ROAD; PUDONG SHANGHAI; CHINA
+China
+</span>
+
 

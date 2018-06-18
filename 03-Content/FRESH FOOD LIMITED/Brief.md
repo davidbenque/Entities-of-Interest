@@ -1,20 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/FRESH_FOOD_LIMITED.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # FRESH FOOD LIMITED
-Status: Defaulted
+<span>Status: Defaulted
 Address: ME PHILIPPE SCHMIDT C/O STRATEGIS SERVICES SAM 2, RUE DES IRIS MC 98000 MONACO
-
-## Stakeholders
-SHAREHOLDER
-THE BEARER
-
-
-INTERMEDIARY
-SCHMIDT,  PHILIPPE
-
-
-
+</span>
 
 ---
 
@@ -28,8 +23,16 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/FRESH_FOOD_LIMITED.png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+THE BEARER
+</span>
+
+<span>INTERMEDIARY
+SCHMIDT,  PHILIPPE
+</span>
+
 

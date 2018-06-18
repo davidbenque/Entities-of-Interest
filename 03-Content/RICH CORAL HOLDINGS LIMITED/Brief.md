@@ -1,23 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/RICH_CORAL_HOLDINGS_LIMITED.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # RICH CORAL HOLDINGS LIMITED
-Status: Defaulted
+<span>Status: Defaulted
 Address: HONG KONG PROFESSIONAL SECRETARIAL LTD. UNIT 1011; WU SANG HOUSE; 655 NATHAN ROAD; KOWLOON; HONG KONG.
-
-## Stakeholders
-SHAREHOLDER
-BREHMER THOMAS MANFRED
-Hong Kong
-
-
-INTERMEDIARY
-HONG KONG PROFESSIONAL SECRETARIAL LTD.
-HONG KONG PROFESSIONAL SECRETARIAL LTD. UNIT 1011; WU SANG HOUSE; 655 NATHAN ROAD; KOWLOON; HONG KONG.
-Hong Kong
-
-
-
+</span>
 
 ---
 
@@ -31,8 +23,19 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/RICH_CORAL_HOLDINGS_LIMITED.png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+BREHMER THOMAS MANFRED
+Hong Kong
+</span>
+
+<span>INTERMEDIARY
+HONG KONG PROFESSIONAL SECRETARIAL LTD.
+HONG KONG PROFESSIONAL SECRETARIAL LTD. UNIT 1011; WU SANG HOUSE; 655 NATHAN ROAD; KOWLOON; HONG KONG.
+Hong Kong
+</span>
+
 

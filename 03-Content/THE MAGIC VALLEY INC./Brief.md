@@ -1,18 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/THE_MAGIC_VALLEY_INC..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # THE MAGIC VALLEY INC.
-Status: Defaulted
+<span>Status: Defaulted
 Address: THE MAGIC VALLEY INC. EDIFICIO ARANGO-ORILLAC PISO 2 CALLE 54 ESTE MARBELLA, CIUDAD DE PANAMA PANAMA REP. DE PANAMA *S.I.*
-
-## Stakeholders
-INTERMEDIARY
-THE MAGIC VALLEY INC.
-THE MAGIC VALLEY INC. EDIFICIO ARANGO-ORILLAC PISO 2 CALLE 54 ESTE MARBELLA, CIUDAD DE PANAMA PANAMA REP. DE PANAMA *S.I.*
-Panama
-
-
-
+</span>
 
 ---
 
@@ -26,8 +23,14 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/THE_MAGIC_VALLEY_INC..png" alt="">
+## Stakeholders
+<span>INTERMEDIARY
+THE MAGIC VALLEY INC.
+THE MAGIC VALLEY INC. EDIFICIO ARANGO-ORILLAC PISO 2 CALLE 54 ESTE MARBELLA, CIUDAD DE PANAMA PANAMA REP. DE PANAMA *S.I.*
+Panama
+</span>
+
 

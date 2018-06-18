@@ -1,20 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/FAT_BOY_LTD..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # FAT BOY LTD.
-Status: Defaulted
+<span>Status: Defaulted
 Address: RIVAFID; SOCIETE FIDUCIAIRE S.A. 6; TOUR-DE-CHAMPEL CASE POSTALE 535 1211 GENEVE 12 SWITZERLAND GENEVE SWITZERLAND
-
-## Stakeholders
-SHAREHOLDER
-THE BEARER
-
-
-INTERMEDIARY
-RIVAFID, SOCIETE FIDUCIAIRE S.A.
-
-
-
+</span>
 
 ---
 
@@ -28,8 +23,16 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/FAT_BOY_LTD..png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+THE BEARER
+</span>
+
+<span>INTERMEDIARY
+RIVAFID, SOCIETE FIDUCIAIRE S.A.
+</span>
+
 

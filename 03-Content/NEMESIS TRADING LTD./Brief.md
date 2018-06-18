@@ -1,30 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/NEMESIS_TRADING_LTD..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # NEMESIS TRADING LTD.
-Status: Defaulted
+<span>Status: Defaulted
 Address: ESTUDIO LEGAL ROCA & ASOCIADOS VIA AUGUSTA 20-22 / 4º PLANTA. 08006 BARCELONA  ESPAÑA
-
-## Stakeholders
-SHAREHOLDER
-MOSSFON SUBSCRIBERS LTD.
-Samoa
-
-
-SHAREHOLDER
-THE BEARER
-
-
-SHAREHOLDER
-THE BEARER
-
-
-INTERMEDIARY
-ESTUDIO LEGAL ROCA & ASOCIADOS
-Spain
-
-
-
+</span>
 
 ---
 
@@ -38,8 +23,26 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/NEMESIS_TRADING_LTD..png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+MOSSFON SUBSCRIBERS LTD.
+Samoa
+</span>
+
+<span>SHAREHOLDER
+THE BEARER
+</span>
+
+<span>SHAREHOLDER
+THE BEARER
+</span>
+
+<span>INTERMEDIARY
+ESTUDIO LEGAL ROCA & ASOCIADOS
+Spain
+</span>
+
 

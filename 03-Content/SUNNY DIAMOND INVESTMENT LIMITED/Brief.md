@@ -1,28 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/SUNNY_DIAMOND_INVESTMENT_LIMITED.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # SUNNY DIAMOND INVESTMENT LIMITED
-Status: Defaulted
+<span>Status: Defaulted
 Address: DI SAN DI MANAGEMENT COMPANY LIMITED 7F- 4; NO.50; SEC. 1; XINSHENG S. RD.; TAIPEI; TAIWAN
-
-## Stakeholders
-SHAREHOLDER
-MOSSFON SUBSCRIBERS LTD.
-Samoa
-
-
-SHAREHOLDER
-WIN SQUARE INTERNATIONAL LIMITED
-Taiwan
-
-
-INTERMEDIARY
-DI SAN DI MANAGEMENT COMPANY LIMITED
-DI SAN DI MANAGEMENT COMPANY LIMITED 7F- 4; NO.50; SEC. 1; XINSHENG S. RD.; TAIPEI; TAIWAN
-Taiwan
-
-
-
+</span>
 
 ---
 
@@ -36,8 +23,24 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/SUNNY_DIAMOND_INVESTMENT_LIMITED.png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+MOSSFON SUBSCRIBERS LTD.
+Samoa
+</span>
+
+<span>SHAREHOLDER
+WIN SQUARE INTERNATIONAL LIMITED
+Taiwan
+</span>
+
+<span>INTERMEDIARY
+DI SAN DI MANAGEMENT COMPANY LIMITED
+DI SAN DI MANAGEMENT COMPANY LIMITED 7F- 4; NO.50; SEC. 1; XINSHENG S. RD.; TAIPEI; TAIWAN
+Taiwan
+</span>
+
 

@@ -1,28 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/Intelligent_Commercial_Company_Ltd..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # Intelligent Commercial Company Ltd.
-Status: Active
+<span>Status: Active
 Address: ORIENT LUCKY HORSE GROUP (HOLDINGS) LTD. 10TH FLOOR; CHIU LUNG BUILDING; 25 CHIU LUNG STREET; CENTRAL HONG KONG
-
-## Stakeholders
-SHAREHOLDER
-CHAN TAK ON
-Hong Kong
-
-
-SHAREHOLDER
-MOSSFON SUBSCRIBERS LTD.
-Samoa
-
-
-INTERMEDIARY
-ORIENT LUCKY HORSE GROUP (HOLDINGS) LTD.
-ORIENT LUCKY HORSE GROUP (HOLDINGS) LTD. 10TH FLOOR; CHIU LUNG BUILDING; 25 CHIU LUNG STREET; CENTRAL HONG KONG
-Hong Kong
-
-
-
+</span>
 
 ---
 
@@ -36,8 +23,24 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/Intelligent_Commercial_Company_Ltd..png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+CHAN TAK ON
+Hong Kong
+</span>
+
+<span>SHAREHOLDER
+MOSSFON SUBSCRIBERS LTD.
+Samoa
+</span>
+
+<span>INTERMEDIARY
+ORIENT LUCKY HORSE GROUP (HOLDINGS) LTD.
+ORIENT LUCKY HORSE GROUP (HOLDINGS) LTD. 10TH FLOOR; CHIU LUNG BUILDING; 25 CHIU LUNG STREET; CENTRAL HONG KONG
+Hong Kong
+</span>
+
 

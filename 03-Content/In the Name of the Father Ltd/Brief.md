@@ -1,23 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/In_the_Name_of_the_Father_Ltd.png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # In the Name of the Father Ltd
-Status: Defaulted
+<span>Status: Defaulted
 Address: CCA INTERSERV LTD 120; ST. URSULA STREET; VLT 1236 VAT REG NO: MT 1734-7234 VALLETTA MALTA
-
-## Stakeholders
-SHAREHOLDER
-NUNZIO ANTIGNANI
-Malta
-
-
-INTERMEDIARY
-CHETCUTI CAUCHI
-CCA INTERSERV LTD 120; ST. URSULA STREET; VLT 1236 VAT REG NO: MT 1734-7234 VALLETTA MALTA
-Malta
-
-
-
+</span>
 
 ---
 
@@ -31,8 +23,19 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/In_the_Name_of_the_Father_Ltd.png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+NUNZIO ANTIGNANI
+Malta
+</span>
+
+<span>INTERMEDIARY
+CHETCUTI CAUCHI
+CCA INTERSERV LTD 120; ST. URSULA STREET; VLT 1236 VAT REG NO: MT 1734-7234 VALLETTA MALTA
+Malta
+</span>
+
 

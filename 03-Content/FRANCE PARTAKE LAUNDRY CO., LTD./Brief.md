@@ -1,23 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/FRANCE_PARTAKE_LAUNDRY_CO.,_LTD..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # FRANCE PARTAKE LAUNDRY CO., LTD.
-Status: Defaulted
+<span>Status: Defaulted
 Address: OFFSHORER BUSINESS SERVICES (HK) LTD. UNIT 826; 8/F OCEAN CENTRE; HARBOUR CITY; 5 CANTON ROAD; TST KOWLOON; HONG KONG
-
-## Stakeholders
-SHAREHOLDER
-CAI HUI
-China
-
-
-INTERMEDIARY
-OFFSHORE BUSINESS CONSULTANT (INT'L) LIMITED
-OFFSHORER BUSINESS SERVICES (HK) LTD. UNIT 826; 8/F OCEAN CENTRE; HARBOUR CITY; 5 CANTON ROAD; TST KOWLOON; HONG KONG
-Hong Kong
-
-
-
+</span>
 
 ---
 
@@ -31,8 +23,19 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/FRANCE_PARTAKE_LAUNDRY_CO.,_LTD..png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+CAI HUI
+China
+</span>
+
+<span>INTERMEDIARY
+OFFSHORE BUSINESS CONSULTANT (INT'L) LIMITED
+OFFSHORER BUSINESS SERVICES (HK) LTD. UNIT 826; 8/F OCEAN CENTRE; HARBOUR CITY; 5 CANTON ROAD; TST KOWLOON; HONG KONG
+Hong Kong
+</span>
+
 

@@ -1,23 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/U_HOLY_CORP..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # U HOLY CORP.
-Status: Defaulted
+<span>Status: Defaulted
 Address: SINO-WEST INTERNATIONAL CO.; LTD. 3F-6; NO. 36; SEC.3  MINSHENG E. ROAD TAIPEI; TAIWAN; R.O.C.
-
-## Stakeholders
-SHAREHOLDER
-BARSTONE CORPORATION
-Taiwan
-
-
-INTERMEDIARY
-SINO-WEST INTERNATIONAL CO., LTD.
-SINO-WEST INTERNATIONAL CO.; LTD. 3F-6; NO. 36; SEC.3  MINSHENG E. ROAD TAIPEI; TAIWAN; R.O.C.
-Taiwan
-
-
-
+</span>
 
 ---
 
@@ -31,8 +23,19 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/U_HOLY_CORP..png" alt="">
+## Stakeholders
+<span>SHAREHOLDER
+BARSTONE CORPORATION
+Taiwan
+</span>
+
+<span>INTERMEDIARY
+SINO-WEST INTERNATIONAL CO., LTD.
+SINO-WEST INTERNATIONAL CO.; LTD. 3F-6; NO. 36; SEC.3  MINSHENG E. ROAD TAIPEI; TAIWAN; R.O.C.
+Taiwan
+</span>
+
 

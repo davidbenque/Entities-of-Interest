@@ -1,18 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/ULTRA_STAR_HOLDINGS_S.A..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # ULTRA STAR HOLDINGS S.A.
-Status: Defaulted
+<span>Status: Defaulted
 Address: DCA CONTADORES & ASOCIADOS SARANDI 693, PISO 3 11000 MONTEVIDEO URUGUAY
-
-## Stakeholders
-INTERMEDIARY
-DCA CONTADORES & ASOCIADOS
-DCA CONTADORES & ASOCIADOS SARANDI 693, PISO 3 CASILLA DE CORREO 1271 11000 MONTEVIDEO URUGUAY
-Uruguay
-
-
-
+</span>
 
 ---
 
@@ -26,8 +23,14 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/ULTRA_STAR_HOLDINGS_S.A..png" alt="">
+## Stakeholders
+<span>INTERMEDIARY
+DCA CONTADORES & ASOCIADOS
+DCA CONTADORES & ASOCIADOS SARANDI 693, PISO 3 CASILLA DE CORREO 1271 11000 MONTEVIDEO URUGUAY
+Uruguay
+</span>
+
 

@@ -1,18 +1,15 @@
 <link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
 
+<style>
+body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/EXCELLENT_TALENT_INTERNATIONAL_CORP..png");background-repeat: no-repeat;background-size: contain;}
+.markdown>p>span{background-color: white;}
+</style>
+
 # EXCELLENT TALENT INTERNATIONAL CORP.
-Status: Defaulted
+<span>Status: Defaulted
 Address: POWER POINT INTERNATIONAL CO. LTD. 6F; NO. 72; SEC 2; NANJIN EAST ROAD; TAIPEI CITY; R.O.C. TAIWAN (R.O.C.) *S.I.*
-
-## Stakeholders
-INTERMEDIARY
-POWER POINT INT'L CO., LTD.
-POWER POINT INTERNATIONAL CO. LTD. 6F; NO. 72; SEC 2; NANJIN EAST ROAD; TAIPEI CITY; R.O.C. TAIWAN (R.O.C.) *S.I.*
-Taiwan
-
-
-
+</span>
 
 ---
 
@@ -26,8 +23,14 @@ Graph Key
 <span class="intermediary">• Intermediaries</span>
 <span class="officer">• Officers</span>
 <span class="address">• Addresses</span>
-</div>
+</div><br>
 
 
-<img src="http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/EXCELLENT_TALENT_INTERNATIONAL_CORP..png" alt="">
+## Stakeholders
+<span>INTERMEDIARY
+POWER POINT INT'L CO., LTD.
+POWER POINT INTERNATIONAL CO. LTD. 6F; NO. 72; SEC 2; NANJIN EAST ROAD; TAIPEI CITY; R.O.C. TAIWAN (R.O.C.) *S.I.*
+Taiwan
+</span>
+
 
