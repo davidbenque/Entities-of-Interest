@@ -11,14 +11,43 @@ html{
 
 body.landing{
 background-color: #3C455D;
-text-align: center;
 color: white;
-font-size: 1.2em;
 margin:5px;
 padding: 0px;
+vertical-align: middle;
+
 }
 
-body.landing > img{
+.cover{
+  font-size: 1.2em;
+  margin-top:40px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:  "header header"
+                        "text image"
+                        "footer footer";
+  align-items: center;
+
+}
+
+.cover-title{
+  grid-area: text;
+}
+
+.cover-title > h1 {
+  margin-top: 0px;
+  font-size: 8vw;
+  line-height: 110%;
+}
+
+.cover-image{
+  grid-area: image;
+  padding: 20px;
+}
+
+.cover-image > img{
   margin: 0px;
   padding: 0px;
   width: 100%;
@@ -29,13 +58,13 @@ body.landing > img{
 box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.79);
 }
 
-body.landing > #container > a{
+#container > a{
   color: white;
   text-decoration: underline;
-  font-style: italic;
+
 }
 
-body.landing > #container > a:hover{
+.cover-title > a:hover{
   background-color: transparent;
   text-decoration: none;
 }
