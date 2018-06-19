@@ -1,5 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../assets/style.css">
 #### [Entities of Interest](/list.html)
+<link rel="stylesheet" type="text/css" href="../../assets/style.css">
 
 <style>
 body{background-image:url("http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/SUNNY_DIAMOND_INVESTMENT_LIMITED.png");background-repeat: no-repeat;background-size: contain;}
@@ -44,3 +44,4 @@ Taiwan
 </span>
 
 
+<br><br><a class="contribute_button" href="Readme.md">👁</a>

@@ -153,3 +153,20 @@ svg {
 .intermediary{
   color: #ff8200;
 }
+
+a.contribute_button{
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  color:black;
+  font-size: 1.5em;
+}
+
+a.contribute_button:hover{
+  background-color: #a6a6fe;
+  color: white;
+  text-decoration: none;
+
+  border: 0px;
+  padding: 10px;
+}
