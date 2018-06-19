@@ -64,7 +64,7 @@ for index, row in name_list.iterrows():
         path = "../03-Content/" + company_name
 
     brief_file = open(path + '/Brief.md', 'w')
-    # content_file = open(path + '/Readme.md', 'w')
+    
 
     s3_url = "http://eoi-graphs.s3-website-eu-west-1.amazonaws.com/"
 
@@ -173,6 +173,8 @@ for index, row in name_list.iterrows():
 
 ########
 # Content Template
+    # content_file = open(path + '/Readme.md', 'w')
+    
     # content_file.write('<link rel="stylesheet" type="text/css" href="../../assets/style.css">\r')
     # content_file.write("# " + start["a"]["name"] + "\n\n")
     # content_file.write("[comment]: <> (Add/Remove information below as you want)\r[comment]: <> (Markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)\r")

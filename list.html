@@ -20,7 +20,7 @@
   async function setup () {
     var info = await selfArchive.getInfo();
     container.innerHTML += '<h4>Entities of Interest</h4>';
-    //container.innerHTML += info.description;
+     container.innerHTML += '<a href="Readme.md" class="list_nav">About</a><br><br>';
 
     var files = await selfArchive.readdir('/03-Content/', {recursive: false});
     files.sort();
