@@ -80,16 +80,12 @@ h1{
   display:inline;
 }
 
+/* Running title */
 h4{
   font-weight: normal;
   text-align: center;
   font-size: 15px;
   margin-top: 0px;
-}
-
-a.list_nav{
-  color: black;
-  text-decoration: underline;
 }
 
 .markdown>h4>a{
@@ -100,6 +96,16 @@ a.list_nav{
   color:black;
   background-color: white;
   text-decoration: underline;
+}
+
+
+blockquote{
+  border: 0px;
+}
+
+blockquote > p {
+  padding: 0px;
+  margin: 5px 0px 20px 10px;
 }
 
 .markdown>p{
@@ -120,6 +126,11 @@ p.done{
   margin: 0px;
 }
 
+a.list_nav{
+  color: black;
+  text-decoration: underline;
+}
+
 p > img{
   max-width: 100%;
 }
@@ -130,6 +141,11 @@ a {
 
 a:hover{
   color:#a6a6fe;
+}
+
+table{
+  font-size: 0.9em;
+  margin-bottom: 40px;
 }
 
 
@@ -143,6 +159,7 @@ svg {
 }
 
 
+/* Brief Page  */
 
 .legend{
   font-size: 0.8em;
