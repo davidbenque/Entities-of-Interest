@@ -37,4 +37,4 @@ Atlas Maritime Services Ltd. Ville Farm P.O. Box 9 Sark   (via Guernsey GY9 0SE)
 United Kingdom
 </span>
 
-<br><br><a class="contribute_button" href="Readme.md">👁</a>
+<br><br><a class="contribute_button" href="Readme.md">Contribute</a>

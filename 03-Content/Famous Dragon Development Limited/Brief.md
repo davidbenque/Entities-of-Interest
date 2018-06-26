@@ -38,4 +38,4 @@ Topworld Registrations 7/F, Kin On Comm. Bldg. 49-51 Jervois Street Sheung Wan H
 Hong Kong
 </span>
 
-<br><br><a class="contribute_button" href="Readme.md">👁</a>
+<br><br><a class="contribute_button" href="Readme.md">Contribute</a>

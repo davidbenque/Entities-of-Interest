@@ -38,4 +38,4 @@ Panocean Secretarial Services Limited Room 1708 Kai Tak Commercial Building 317-
 Hong Kong
 </span>
 
-<br><br><a class="contribute_button" href="Readme.md">👁</a>
+<br><br><a class="contribute_button" href="Readme.md">Contribute</a>

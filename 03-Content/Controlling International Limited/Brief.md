@@ -37,4 +37,4 @@ Parkfield Overseas Corporations Limited Room 2805 Ho King Commercial Centre No. 
 Hong Kong
 </span>
 
-<br><br><a class="contribute_button" href="Readme.md">👁</a>
+<br><br><a class="contribute_button" href="Readme.md">Contribute</a>

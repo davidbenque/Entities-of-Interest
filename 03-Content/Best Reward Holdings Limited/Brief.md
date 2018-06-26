@@ -38,4 +38,4 @@ KT First Secretary Ltd. 2804, China Resources Building 26 Harbour Road Wanchai H
 Hong Kong
 </span>
 
-<br><br><a class="contribute_button" href="Readme.md">👁</a>
+<br><br><a class="contribute_button" href="Readme.md">Contribute</a>

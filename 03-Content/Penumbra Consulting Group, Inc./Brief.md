@@ -58,4 +58,4 @@ Companies Incorporated 28015 Smyth Drive Valencia CA 91355 USA
 United States
 </span>
 
-<br><br><a class="contribute_button" href="Readme.md">👁</a>
+<br><br><a class="contribute_button" href="Readme.md">Contribute</a>

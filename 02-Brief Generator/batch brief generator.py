@@ -17,6 +17,7 @@ NEO4J_PASS = "panamo" # replace with your password
 url = 'http://localhost:7474'
 graph = Graph(url + '/db/data', username = NEO4J_USER, password = NEO4J_PASS)
 
+# CSV with all the selected names
 name_list = pd.read_csv('../01-Name Hunting/_selected_names.csv')
 
 #################
@@ -168,7 +169,7 @@ for index, row in name_list.iterrows():
                     brief_file.write(i + "\n")
             brief_file.write("</span>" + "\n" + "\n")
 
-    brief_file.write('<br><br><a class="contribute_button" href="Readme.md">👁</a>')
+    brief_file.write('<br><br><a class="contribute_button" href="Readme.md">Contribute</a>')
     brief_file.close()
 
 

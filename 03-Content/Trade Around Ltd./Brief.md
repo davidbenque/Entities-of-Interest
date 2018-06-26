@@ -48,4 +48,4 @@ P.S.C.M., Inc. Piero Salussolia Corporate Management, Inc. 1548 Brickell Avenue 
 United States
 </span>
 
-<br><br><a class="contribute_button" href="Readme.md">👁</a>
+<br><br><a class="contribute_button" href="Readme.md">Contribute</a>

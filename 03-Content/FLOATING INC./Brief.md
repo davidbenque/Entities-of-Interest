@@ -34,4 +34,4 @@ Luxembourg
 </span>
 
 
-<br><br><a class="contribute_button" href="Readme.md">👁</a>
+<br><br><a class="contribute_button" href="Readme.md">Contribute</a>

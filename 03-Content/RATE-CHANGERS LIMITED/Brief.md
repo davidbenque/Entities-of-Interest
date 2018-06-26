@@ -48,4 +48,4 @@ Accounts Centre International Ltd Formations House 29 Harley Street London W1G 9
 United Kingdom
 </span>
 
-<br><br><a class="contribute_button" href="Readme.md">👁</a>
+<br><br><a class="contribute_button" href="Readme.md">Contribute</a>

@@ -36,4 +36,4 @@ JOSIE BEN RUBI TORRE DE LAS AMERICAS PUNTA PACIFICA, PISO B-402 PANAMA CITY PANA
 Panama
 </span>
 
-<br><br><a class="contribute_button" href="Readme.md">👁</a>
+<br><br><a class="contribute_button" href="Readme.md">Contribute</a>

@@ -43,4 +43,4 @@ Company Kit Limited Unit A, 6/F Shun On Comm Bldg. 112-114 Des Voeux Road C., Ho
 Hong Kong
 </span>
 
-<br><br><a class="contribute_button" href="Readme.md">👁</a>
+<br><br><a class="contribute_button" href="Readme.md">Contribute</a>

@@ -38,4 +38,4 @@ Sealight Incorporations Limited Room 1201, Connaught Commercial Building 185 Wan
 Hong Kong
 </span>
 
-<br><br><a class="contribute_button" href="Readme.md">👁</a>
+<br><br><a class="contribute_button" href="Readme.md">Contribute</a>
