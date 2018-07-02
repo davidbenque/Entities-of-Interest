@@ -17,13 +17,13 @@ _Entities of Interest_ is a publication based on the Panama Papers graph-databas
 
 >  The connections around [Sigmundur Davíð Gunnlaugsson](https://projects.icij.org/panama-papers/power-players/?lang=en#49), former prime minister of Iceland, on the ICIJ's [*Power Players*](https://projects.icij.org/panama-papers/power-players/). (visualisation: [Linkurious](https://linkurio.us/))
 
-Outside of these focused high-impact areas of the graph, thousands of companies, "officers", and "intermediaries" did not get any press coverage; they took part in the offshore finance system without breaking any laws, or being public figures, or leaving a paper trail. Additionally, the leaked files themsleves—emails, PDFs, passport scans, etc—were not publicly released byt the ICIJ. Without any of the actual evidence, the graph of Panama Papers data is a vast but shallow web of information. This highlights that this story is not only about data being used to hold the rich and powerful to account, but also about the politics of missing data at the heart of offshore finance. *Not* having your name recorded with your bank account is the ultimate luxury.
+Outside of these focused high-impact areas of the graph, thousands of companies, "officers," and "intermediaries" did not get any press coverage; they took part in the offshore finance system without breaking any laws, or being public figures, or leaving a paper trail. Additionally, the leaked files themselves—emails, PDFs, passport scans, etc.—were not publicly released by the ICIJ. Without any of the actual evidence, the graph of Panama Papers data is a vast but shallow web of information. This highlights that this story is not only about data being used to hold the rich and powerful to account, but also about the politics of missing data at the heart of offshore finance. *Not* having your name recorded with your bank account is the ultimate luxury.
 
 ![the_bearer](assets/images/the_bearer.png)
 
 > Searching for "The Bearer" in the ICIJ graph-database ([Neo4j](https://neo4j.com/) browser)
 
-*Entites of Interest* is a workshop and publication which re-visits the Panama Papers database as a kind of digital ruin. It takes fragments of incomplete and outdated data as a starting point for attempts to fill in the gaps. With many of the corprate entities already marked as "dead", "defaulted", or otherwise de-activated at the time of the leak in 2015, it is unlikely that any more breaking news will come out of these data. Instead, *Entities of Interest* proposes a new, creative way to spend time with this information; an opportunity to think about the opacity of offshore finance, to speculate back, and to regain agency over it, however futile. The names of shell companies were selected for their evocative, poetic, or humorous qualities. They are presented here, along with their immediate surroundings in the graph, as design briefs inviting a response. As a counterpoint to the opaque web of the database, the results are distributed as a peer-to-peer website which anyone can explore, download, and modify. 
+*Entities of Interest* is a workshop and publication which re-visits the Panama Papers database as a kind of digital ruin. It takes fragments of incomplete and outdated data as a starting point for attempts to fill in the gaps. With many of the corporate entities already marked as "dead," "defaulted," or otherwise de-activated at the time of the leak in 2015, it is unlikely that any more breaking news will come out of these data. Instead, *Entities of Interest* proposes a new, creative way to spend time with this information; an opportunity to think about the opacity of offshore finance, to speculate back, and to regain agency over it, however futile. The names of shell companies were selected for their evocative, poetic, or humorous qualities. They are presented here, along with their immediate surroundings in the graph, as design briefs inviting a response. As a counterpoint to the opaque web of the database, the results are distributed as a peer-to-peer website which anyone can explore, download, and modify. 
 
 |      | name                                     | status    | incorporation_date | inactivation_date |
 | ---: | :--------------------------------------- | :-------- | :----------------- | :---------------- |
@@ -45,7 +45,7 @@ Outside of these focused high-impact areas of the graph, thousands of companies,
 ## Contribute
 
 You are invited to respond to any of the available names, the small ones in [the list](list.html).  
-This can involve anything from an investigation using online [tools](#search-tools) to a complete fabrication. You can be a detective, an amateur sleuth, a screen-writer, a meme-artist, or anyone else!
+This can involve anything from an investigation using online [tools](#search-tools) to a complete fabrication. You can be a detective, an amateur sleuth, a screenwriter, a meme-artist, or anyone else!
 
 1 - Browse the list. Click on a name to see the brief, this includes available information about the company and a visualisation of its neighbours in the graph.
 
@@ -59,16 +59,17 @@ This can involve anything from an investigation using online [tools](#search-too
 <img style="width:500px" src="assets/images/contribution-files.png">
 
 5 - Add content  
-Once a company folder contains more that 2 files it is considered 'processed'. Its name is displayed in large type in the list, and clicking it directs to `Readme.md` instead of `Brief.md`. 
+Once a company folder contains more than 2 files it is considered 'processed.' Its name is displayed in large type in the list, and clicking it directs to `Readme.md` instead of `Brief.md`. 
 
-You can modify Readme.md as you wish using [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), for example by adding text or to display images you have added to the folder (`![](my-image.png)`). You can also add html and css, for example to embed videos from Youtube or other sites. 
+You can modify Readme.md as you wish using [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), for example by adding text or to display images you have added to the folder (`![](my-image.png)`). You can also add HTML and CSS, for example to embed videos from Youtube or other sites. 
 
 6 - Submit your contribution  
-By default your contribution will only appear in your own copy of the site. If you want it to feature in the main site, you can either:  
+By default, your contribution will only appear in your own copy of the site. If you want it to feature in the main site, you can either:  
 
-Send a .zip of you company folder to [@magmd.uk email address?].
+Send a .zip of your company folder to [@magmd.uk email address?].
 
 Submit a [pull request](https://github.com/davidbenque/Entities-of-Interest/pulls) on Github.
+
 
 ### Search Tools:
 
