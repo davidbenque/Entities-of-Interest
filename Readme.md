@@ -64,7 +64,7 @@ Once a company folder contains more than 2 files it is considered 'processed.' I
 You can modify Readme.md as you wish using [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), for example by adding text or to display images you have added to the folder (`![](my-image.png)`). You can also add HTML and CSS, for example to embed videos from Youtube or other sites. 
 
 6 - Submit your contribution  
-By default, your contribution will only appear in your own copy of the site. If you want it to feature in the main site, you can either:  
+By default, your contribution will only appear in your own copy of the site. If you want it to feature on the main site, you can either:  
 
 Send a .zip of your company folder to [@magmd.uk email address?].
 
