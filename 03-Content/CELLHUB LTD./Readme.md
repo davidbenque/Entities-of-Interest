@@ -10,3 +10,4 @@ date:  17 June 2018
 []: >
 
 ![Mitochondria](Mitochondria.gif)
+Open for contributions. See [instructions](/Readme.md#contribute)

@@ -10,3 +10,5 @@ date:
 
 ---
 [comment]: <> (Add your content here)
+
+Open for contributions. See [instructions](/Readme.md#contribute)
